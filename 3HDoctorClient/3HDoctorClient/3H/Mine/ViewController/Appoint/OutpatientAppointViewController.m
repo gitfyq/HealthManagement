@@ -1,32 +1,24 @@
 //
-//  ForgetPossWordViewController.m
+//  OutpatientAppointViewController.m
 //  3HDoctorClient
 //
-//  Created by 范英强 on 15/11/30.
-//  Copyright (c) 2015年 fyq. All rights reserved.
+//  Created by 范英强 on 15/12/4.
+//  Copyright © 2015年 fyq. All rights reserved.
 //
 
-#import "ForgetPossWordViewController.h"
+#import "OutpatientAppointViewController.h"
 
-@interface ForgetPossWordViewController ()
+@interface OutpatientAppointViewController ()
 
 @end
 
-@implementation ForgetPossWordViewController
+@implementation OutpatientAppointViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.navigationItem.leftBarButtonItem = [UIBarButtonItemExtension leftBackButtonItem:@selector(backAction) andTarget:self];
 }
 
-- (void)backAction{
-    [self.navigationController popViewControllerAnimated:YES];
-}
-
-- (NSString *)title{
-    return @"忘记密码";
-}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

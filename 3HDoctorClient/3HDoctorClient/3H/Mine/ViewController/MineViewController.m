@@ -9,6 +9,16 @@
 #import "MineViewController.h"
 #import "MineHeadTableViewCell.h"
 #import "MineTableViewCell.h"
+//个人资料
+#import "PersonalViewController.h"
+//我的钱包
+#import "WalletViewController.h"
+//设置
+#import "SetUpViewController.h"
+//邀请
+#import "InvitationViewController.h"
+//预约设置
+#import "AppointViewController.h"
 @interface MineViewController ()
 
 @end
@@ -74,6 +84,34 @@
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
     return  [[UIView alloc] init];
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    if (indexPath.section == 0) {
+        PersonalViewController *personalVc = [[PersonalViewController alloc] initWithTableViewStyle:UITableViewStyleGrouped];
+        personalVc.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:personalVc animated:YES];
+        
+    }else{
+        if (indexPath.row == 0) {
+            WalletViewController *wallVc = [[WalletViewController alloc] initWithTableViewStyle:UITableViewStyleGrouped];
+            wallVc.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:wallVc animated:YES];
+        }else if(indexPath.row ==1){
+            AppointViewController *appointVc = [[AppointViewController alloc] init];
+            appointVc.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:appointVc animated:YES];
+        }else if(indexPath.row ==2){
+            InvitationViewController *invitationVc = [[InvitationViewController alloc] init];
+            invitationVc.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:invitationVc animated:YES];
+            
+        }else{
+            SetUpViewController *setUpVc = [[SetUpViewController alloc] initWithTableViewStyle:UITableViewStyleGrouped];
+            setUpVc.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:setUpVc animated:YES];
+        }
+    }
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -31,18 +31,20 @@
     HomeViewController *homeVc = [[HomeViewController alloc] init];
     homeVc.title = @"首页";
     BaseNavigationController *naHome = [[BaseNavigationController alloc] initWithRootViewController:homeVc];
-    naHome.tabBarItem.image = [[UIImage imageNamed:@"3H-首页_首页-未点击"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    naHome.tabBarItem.selectedImage = [[UIImage imageNamed:@"3H-首页_首页-点击"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    naHome.tabBarItem.image = [[UIImage imageNamed:@"首页非点击"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    naHome.tabBarItem.selectedImage = [[UIImage imageNamed:@"首页点击"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     
     MessageViewController *messageVc = [[MessageViewController alloc] initWithTableViewStyle:UITableViewStyleGrouped];
     messageVc.title = @"消息";
     BaseNavigationController *naMessage = [[BaseNavigationController alloc] initWithRootViewController:messageVc];
-    naMessage.tabBarItem.image = [[UIImage imageNamed:@"3H-首页_我的-未点击"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    naMessage.tabBarItem.selectedImage = [[UIImage imageNamed:@"3H-首页_首页-点击"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    naMessage.tabBarItem.image = [[UIImage imageNamed:@"消息非点击"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    naMessage.tabBarItem.selectedImage = [[UIImage imageNamed:@"消息点击"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     
     MineViewController *mineVc = [[MineViewController alloc] initWithTableViewStyle:UITableViewStyleGrouped];
     mineVc.title = @"我的";
     BaseNavigationController *naMine = [[BaseNavigationController alloc] initWithRootViewController:mineVc];
+    naMine.tabBarItem.image = [[UIImage imageNamed:@"我的非点击"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    naMine.tabBarItem.selectedImage = [[UIImage imageNamed:@"我的点击"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     
     
     
