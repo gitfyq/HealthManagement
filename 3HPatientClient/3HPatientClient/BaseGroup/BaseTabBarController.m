@@ -30,7 +30,7 @@
 
 - (void)loadViewController{
     
-    HomeViewController *homeVc = [[HomeViewController alloc] init];
+    HomeViewController *homeVc = [[HomeViewController alloc] initWithTableViewStyle:UITableViewStyleGrouped];
     homeVc.title = @"首页";
     BaseNavigationController *naHome = [[BaseNavigationController alloc] initWithRootViewController:homeVc];
 //    naFirst.tabBarItem.image = [[UIImage imageNamed:@""] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];

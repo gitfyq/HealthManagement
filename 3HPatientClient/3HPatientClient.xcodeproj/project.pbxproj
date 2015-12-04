@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		991A31271C11E94500E0313F /* HomeHeadTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 991A31261C11E94500E0313F /* HomeHeadTableViewCell.m */; };
+		991A312A1C11E9B600E0313F /* HomeFunctionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 991A31291C11E9B600E0313F /* HomeFunctionTableViewCell.m */; };
+		991A312D1C11E9C800E0313F /* HomeTitleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 991A312C1C11E9C800E0313F /* HomeTitleTableViewCell.m */; };
+		991A31301C11E9EC00E0313F /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 991A312F1C11E9EC00E0313F /* HomeTableViewCell.m */; };
+		991A31331C11EA0E00E0313F /* HomeSlidingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 991A31321C11EA0E00E0313F /* HomeSlidingTableViewCell.m */; };
 		99DA3EB41C0BE4CF00573D4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DA3EB31C0BE4CF00573D4C /* main.m */; };
 		99DA3EB71C0BE4CF00573D4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DA3EB61C0BE4CF00573D4C /* AppDelegate.m */; };
 		99DA3EBA1C0BE4CF00573D4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DA3EB91C0BE4CF00573D4C /* ViewController.m */; };
@@ -134,6 +139,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		991A31251C11E94500E0313F /* HomeHeadTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeHeadTableViewCell.h; sourceTree = "<group>"; };
+		991A31261C11E94500E0313F /* HomeHeadTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeHeadTableViewCell.m; sourceTree = "<group>"; };
+		991A31281C11E9B600E0313F /* HomeFunctionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeFunctionTableViewCell.h; sourceTree = "<group>"; };
+		991A31291C11E9B600E0313F /* HomeFunctionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeFunctionTableViewCell.m; sourceTree = "<group>"; };
+		991A312B1C11E9C800E0313F /* HomeTitleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTitleTableViewCell.h; sourceTree = "<group>"; };
+		991A312C1C11E9C800E0313F /* HomeTitleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTitleTableViewCell.m; sourceTree = "<group>"; };
+		991A312E1C11E9EC00E0313F /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
+		991A312F1C11E9EC00E0313F /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
+		991A31311C11EA0E00E0313F /* HomeSlidingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeSlidingTableViewCell.h; sourceTree = "<group>"; };
+		991A31321C11EA0E00E0313F /* HomeSlidingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeSlidingTableViewCell.m; sourceTree = "<group>"; };
 		99DA3EAE1C0BE4CF00573D4C /* 3HPatientClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3HPatientClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99DA3EB21C0BE4CF00573D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99DA3EB31C0BE4CF00573D4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -517,6 +532,16 @@
 		99DA40941C0BEB0500573D4C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				991A31251C11E94500E0313F /* HomeHeadTableViewCell.h */,
+				991A31261C11E94500E0313F /* HomeHeadTableViewCell.m */,
+				991A31281C11E9B600E0313F /* HomeFunctionTableViewCell.h */,
+				991A31291C11E9B600E0313F /* HomeFunctionTableViewCell.m */,
+				991A312B1C11E9C800E0313F /* HomeTitleTableViewCell.h */,
+				991A312C1C11E9C800E0313F /* HomeTitleTableViewCell.m */,
+				991A312E1C11E9EC00E0313F /* HomeTableViewCell.h */,
+				991A312F1C11E9EC00E0313F /* HomeTableViewCell.m */,
+				991A31311C11EA0E00E0313F /* HomeSlidingTableViewCell.h */,
+				991A31321C11EA0E00E0313F /* HomeSlidingTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1092,6 +1117,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99DA41A21C0BEB0500573D4C /* NSObject+BaseFrame.m in Sources */,
+				991A312D1C11E9C800E0313F /* HomeTitleTableViewCell.m in Sources */,
 				99DA41EE1C0BEB0500573D4C /* TPKeyboardAvoidingTableView.m in Sources */,
 				99DA41D31C0BEB0500573D4C /* MJRefreshStateHeader.m in Sources */,
 				99DA41CB1C0BEB0500573D4C /* MJRefreshAutoGifFooter.m in Sources */,
@@ -1101,6 +1127,7 @@
 				99DA41EC1C0BEB0500573D4C /* TPKeyboardAvoidingCollectionView.m in Sources */,
 				99DA41C71C0BEB0500573D4C /* MJRefreshBackFooter.m in Sources */,
 				99DA41BA1C0BEB0500573D4C /* MTLModel+NSCoding.m in Sources */,
+				991A31301C11E9EC00E0313F /* HomeTableViewCell.m in Sources */,
 				99DA41921C0BEB0500573D4C /* BaseTabBarController.m in Sources */,
 				99DA41D61C0BEB0500573D4C /* UIScrollView+MJExtension.m in Sources */,
 				99DA418E1C0BEB0500573D4C /* MessageViewController.m in Sources */,
@@ -1136,6 +1163,7 @@
 				99DA41B81C0BEB0500573D4C /* MTLJSONAdapter.m in Sources */,
 				99DA41F11C0BEB0500573D4C /* TQRichTextEmojiRun.m in Sources */,
 				99DA41981C0BEB0500573D4C /* AFHTTPSessionManager.m in Sources */,
+				991A312A1C11E9B600E0313F /* HomeFunctionTableViewCell.m in Sources */,
 				99DA41E61C0BEB0500573D4C /* UIImage+GIF.m in Sources */,
 				99DA41B21C0BEB0500573D4C /* FMDatabaseQueue.m in Sources */,
 				99DA41C11C0BEB0500573D4C /* NSObject+MTLComparisonAdditions.m in Sources */,
@@ -1163,6 +1191,7 @@
 				99DA41991C0BEB0500573D4C /* AFNetworkReachabilityManager.m in Sources */,
 				99DA41BF1C0BEB0500573D4C /* NSDictionary+MTLManipulationAdditions.m in Sources */,
 				99DA41DE1C0BEB0500573D4C /* SDImageCache.m in Sources */,
+				991A31331C11EA0E00E0313F /* HomeSlidingTableViewCell.m in Sources */,
 				99DA41B51C0BEB0500573D4C /* JSONKit.m in Sources */,
 				99DA41A71C0BEB0500573D4C /* UIButton+EXT.m in Sources */,
 				99DA41C31C0BEB0500573D4C /* NSValueTransformer+MTLPredefinedTransformerAdditions.m in Sources */,
@@ -1195,6 +1224,7 @@
 				99DA41CA1C0BEB0500573D4C /* MJRefreshHeader.m in Sources */,
 				99DA41A61C0BEB0500573D4C /* SGSaveFile.m in Sources */,
 				99DA41AE1C0BEB0500573D4C /* UIViewController+Extension.m in Sources */,
+				991A31271C11E94500E0313F /* HomeHeadTableViewCell.m in Sources */,
 				99DA3EB41C0BE4CF00573D4C /* main.m in Sources */,
 				99DA41B01C0BEB0500573D4C /* FMDatabaseAdditions.m in Sources */,
 				99DA41D51C0BEB0500573D4C /* MJRefreshConst.m in Sources */,

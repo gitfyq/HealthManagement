@@ -22,7 +22,7 @@
     
     [self.window makeKeyAndVisible];
     [self setAppStyle];
-    [self setWindowRootViewControllerIsTabBar];
+    [self setWindowRootViewControllerIsLogin];
     
     return YES;
 }
