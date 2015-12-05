@@ -7,7 +7,7 @@
 //
 
 #import "HealthViewController.h"
-
+#import "HealthTableViewCell.h"
 @interface HealthViewController ()
 
 @end
@@ -17,6 +17,44 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.dataArray = [NSMutableArray arrayWithArray:@[@{@"img":@"3H-健康_健康管理",@"title":@"健康管理"},@{@"img":@"3H-健康_健康日程",@"title":@"健康日程"},@{@"img":@"3H-健康_咨询专家",@"title":@"咨询专家"},@{@"img":@"3H-健康_预约",@"title":@"预约"}]];
+    
+}
+
+- (void)backAction{
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *identifier = @"idertifier";
+    HealthTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
+    if (cell == nil) {
+        cell = [[HealthTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
+    }
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    [cell confingWithModel:self.dataArray[indexPath.section]];
+    return cell;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 1;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return 60.0f;
+}
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    return self.dataArray.count;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
+    return 10.0f;
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
+    return  [[UIView alloc] init];
 }
 
 - (void)didReceiveMemoryWarning {

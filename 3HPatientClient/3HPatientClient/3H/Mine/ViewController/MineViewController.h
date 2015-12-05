@@ -6,8 +6,8 @@
 //  Copyright (c) 2015年 fyq. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import "BaseTableViewController.h"
 
-@interface MineViewController : BaseViewController
+@interface MineViewController : BaseTableViewController
 
 @end

@@ -19,7 +19,7 @@
 
 - (UILabel *)labLine{
     if (!_labLine) {
-        _labLine = [[UILabel alloc] initWithFrame:CGRectMake(10, 15, 2, 15)];
+        _labLine = [[UILabel alloc] initWithFrame:CGRectMake(10, (42 -15)/2, 2, 15)];
         _labLine.backgroundColor = AppDefaultColor;
         _labLine.layer.masksToBounds = YES;
         _labLine.layer.cornerRadius = 1;
@@ -29,7 +29,7 @@
 
 - (UILabel *)labTitle{
     if (!_labTitle) {
-        _labTitle = [[UILabel alloc] initWithFrame:CGRectMake(self.labLine.right +10, 0, DeviceSize.width -self.labLine.right -10 -10, 45)];
+        _labTitle = [[UILabel alloc] initWithFrame:CGRectMake(self.labLine.right +10, 0, DeviceSize.width -self.labLine.right -10 -10, 42)];
         _labTitle.textColor = AppDefaultColor;
         _labTitle.font = [UIFont systemFontOfSize:15];
     }
@@ -39,8 +39,8 @@
 
 - (UIImageView *)imgArrow{
     if (!_imgArrow) {
-        _imgArrow = [[UIImageView alloc] initWithFrame:CGRectMake(DeviceSize.width -15 -10, 15, 17/2, 15)];
-        _imgArrow.image = [UIImage imageNamed:@"我的-设置_更多-非点击状态"];
+        _imgArrow = [[UIImageView alloc] initWithFrame:CGRectMake(DeviceSize.width -17/2 -10, (42 -15)/2, 17/2, 15)];
+        _imgArrow.image = [UIImage imageNamed:@"arrowImg"];
     }
     return _imgArrow;
 }

@@ -36,11 +36,11 @@
 //    naFirst.tabBarItem.image = [[UIImage imageNamed:@""] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
 //    naFirst.tabBarItem.selectedImage = [[UIImage imageNamed:@""] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     
-    HealthViewController *healthVc = [[HealthViewController alloc] init];
+    HealthViewController *healthVc = [[HealthViewController alloc] initWithTableViewStyle:UITableViewStyleGrouped];
     healthVc.title = @"健康";
     BaseNavigationController *naHealth = [[BaseNavigationController alloc] initWithRootViewController:healthVc];
     
-    MessageViewController *messageVc = [[MessageViewController alloc] init];
+    MessageViewController *messageVc = [[MessageViewController alloc] initWithTableViewStyle:UITableViewStyleGrouped];
     messageVc.title = @"消息";
     BaseNavigationController *naMessage = [[BaseNavigationController alloc] initWithRootViewController:messageVc];
     

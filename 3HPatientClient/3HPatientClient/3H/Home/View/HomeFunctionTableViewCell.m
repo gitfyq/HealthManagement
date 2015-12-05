@@ -20,7 +20,10 @@
         f = 86;
     }
     for (int i = 0; i <arrName.count; i++) {
-        UIView *view = [[UIView alloc] initWithFrame:CGRectMake(w*i, 0, w, f)];
+        UIButton *view = [UIButton buttonWithType:UIButtonTypeCustom];
+        view.frame = CGRectMake(w*i, 0, w, f);
+        view.tag = 100 +i;
+        [view addTarget:self action:@selector(btnAciton:) forControlEvents:UIControlEventTouchUpInside];
         if (i == 0 ||i == 2) {
             view.backgroundColor = [UIColor brownColor];
         }else{
@@ -41,6 +44,12 @@
         lab.text = arrName[i];
         
         [view addSubview:lab];
+    }
+}
+
+- (void)btnAciton:(UIButton *)btn{
+    if (self.HomefunctionBlock) {
+        self.HomefunctionBlock(btn.tag - 100);
     }
 }
 /*

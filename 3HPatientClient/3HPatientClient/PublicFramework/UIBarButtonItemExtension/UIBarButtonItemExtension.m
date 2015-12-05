@@ -31,7 +31,8 @@
 + (UIBarButtonItem *)leftBackButtonItem:(SEL) selector andTarget:(id) target
 {
     UIButton *searchButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    [searchButton setBackgroundImage:[UIImage imageNamed:@"but_back_black"] forState:UIControlStateNormal];
+    //    [searchButton setBackgroundImage:[UIImage imageNamed:@"3H医生端-登录-完善资料_左键-白色"] forState:UIControlStateNormal];
+    [searchButton setImage:[UIImage imageNamed:@"backbtnimg"] forState:UIControlStateNormal];
     [searchButton addTarget:target action:selector forControlEvents:UIControlEventTouchUpInside];
     searchButton.frame = CGRectMake(0, 0, 26, 26);
     return [[UIBarButtonItem alloc] initWithCustomView:searchButton];

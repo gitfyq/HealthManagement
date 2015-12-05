@@ -11,7 +11,244 @@
 		991A312A1C11E9B600E0313F /* HomeFunctionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 991A31291C11E9B600E0313F /* HomeFunctionTableViewCell.m */; };
 		991A312D1C11E9C800E0313F /* HomeTitleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 991A312C1C11E9C800E0313F /* HomeTitleTableViewCell.m */; };
 		991A31301C11E9EC00E0313F /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 991A312F1C11E9EC00E0313F /* HomeTableViewCell.m */; };
-		991A31331C11EA0E00E0313F /* HomeSlidingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 991A31321C11EA0E00E0313F /* HomeSlidingTableViewCell.m */; };
+		991A31361C12D9B300E0313F /* HomeSlidingCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 991A31351C12D9B300E0313F /* HomeSlidingCustomView.m */; };
+		991A31391C12DE8200E0313F /* HomeSlidingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 991A31381C12DE8200E0313F /* HomeSlidingTableViewCell.m */; };
+		991A32191C12E2DC00E0313F /* 3H-健康_健康日程@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A313D1C12E2DB00E0313F /* 3H-健康_健康日程@2x.png */; };
+		991A321A1C12E2DC00E0313F /* 首页-健康日程_复查提醒@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A313E1C12E2DB00E0313F /* 首页-健康日程_复查提醒@2x.png */; };
+		991A321B1C12E2DC00E0313F /* 首页-健康日程_日期-点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A313F1C12E2DB00E0313F /* 首页-健康日程_日期-点击状态@2x.png */; };
+		991A321C1C12E2DC00E0313F /* 首页-健康日程_检查提醒@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31401C12E2DB00E0313F /* 首页-健康日程_检查提醒@2x.png */; };
+		991A321D1C12E2DC00E0313F /* 首页-健康日程_用药提醒@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31411C12E2DB00E0313F /* 首页-健康日程_用药提醒@2x.png */; };
+		991A321E1C12E2DC00E0313F /* 3H-健康_健康管理@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31431C12E2DB00E0313F /* 3H-健康_健康管理@2x.png */; };
+		991A321F1C12E2DC00E0313F /* 首页-健康管理-主要诊断-主要诊断搜索_搜索@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31441C12E2DB00E0313F /* 首页-健康管理-主要诊断-主要诊断搜索_搜索@2x.png */; };
+		991A32201C12E2DC00E0313F /* 首页-健康管理-主要诊断-主要诊断搜索_搜索框@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31451C12E2DB00E0313F /* 首页-健康管理-主要诊断-主要诊断搜索_搜索框@2x.png */; };
+		991A32211C12E2DC00E0313F /* 首页-健康管理_主要诊断@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31461C12E2DB00E0313F /* 首页-健康管理_主要诊断@2x.png */; };
+		991A32221C12E2DC00E0313F /* 首页-健康管理_复查指南@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31471C12E2DB00E0313F /* 首页-健康管理_复查指南@2x.png */; };
+		991A32231C12E2DC00E0313F /* 首页-健康管理_检查及检查数据@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31481C12E2DB00E0313F /* 首页-健康管理_检查及检查数据@2x.png */; };
+		991A32241C12E2DC00E0313F /* 首页-健康管理_用药指南@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31491C12E2DB00E0313F /* 首页-健康管理_用药指南@2x.png */; };
+		991A32251C12E2DC00E0313F /* 首页-健康管理_简要病史@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A314A1C12E2DB00E0313F /* 首页-健康管理_简要病史@2x.png */; };
+		991A32261C12E2DC00E0313F /* 3H-健康_咨询专家@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A314C1C12E2DB00E0313F /* 3H-健康_咨询专家@2x.png */; };
+		991A32271C12E2DC00E0313F /* 3H-健康_预约@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A314E1C12E2DB00E0313F /* 3H-健康_预约@2x.png */; };
+		991A32281C12E2DC00E0313F /* 我的-个人资料_病人头像@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31501C12E2DB00E0313F /* 我的-个人资料_病人头像@2x.png */; };
+		991A32291C12E2DC00E0313F /* 我的-我的收藏_图片@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31511C12E2DB00E0313F /* 我的-我的收藏_图片@2x.png */; };
+		991A322A1C12E2DC00E0313F /* 我的-我的收藏_心@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31521C12E2DB00E0313F /* 我的-我的收藏_心@2x.png */; };
+		991A322B1C12E2DC00E0313F /* 我的-我的收藏_收藏-未点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31531C12E2DB00E0313F /* 我的-我的收藏_收藏-未点击状态@2x.png */; };
+		991A322C1C12E2DC00E0313F /* 我的-我的收藏_收藏-点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31541C12E2DB00E0313F /* 我的-我的收藏_收藏-点击状态@2x.png */; };
+		991A322D1C12E2DC00E0313F /* 我的-我的订单_九康科技LOGO@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31551C12E2DB00E0313F /* 我的-我的订单_九康科技LOGO@2x.png */; };
+		991A322E1C12E2DC00E0313F /* 我的-我的订单_删除订单@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31561C12E2DB00E0313F /* 我的-我的订单_删除订单@2x.png */; };
+		991A322F1C12E2DC00E0313F /* 我的-我的订单_图片@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31571C12E2DB00E0313F /* 我的-我的订单_图片@2x.png */; };
+		991A32301C12E2DC00E0313F /* 我的-我的订单_评价订单@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31581C12E2DB00E0313F /* 我的-我的订单_评价订单@2x.png */; };
+		991A32311C12E2DC00E0313F /* 我的-我的钱包_充值-未点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31591C12E2DB00E0313F /* 我的-我的钱包_充值-未点击状态@2x.png */; };
+		991A32321C12E2DC00E0313F /* 我的-我的钱包_充值-点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A315A1C12E2DB00E0313F /* 我的-我的钱包_充值-点击状态@2x.png */; };
+		991A32331C12E2DC00E0313F /* 我的-我的钱包_订单记录-未点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A315B1C12E2DB00E0313F /* 我的-我的钱包_订单记录-未点击状态@2x.png */; };
+		991A32341C12E2DC00E0313F /* 我的-我的钱包_订单记录-点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A315C1C12E2DB00E0313F /* 我的-我的钱包_订单记录-点击状态@2x.png */; };
+		991A32351C12E2DC00E0313F /* 我的-我的钱包_账户余额@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A315D1C12E2DB00E0313F /* 我的-我的钱包_账户余额@2x.png */; };
+		991A32361C12E2DC00E0313F /* 我的-我的预约_上@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A315E1C12E2DB00E0313F /* 我的-我的预约_上@2x.png */; };
+		991A32371C12E2DC00E0313F /* 我的-我的预约_下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A315F1C12E2DB00E0313F /* 我的-我的预约_下@2x.png */; };
+		991A32381C12E2DC00E0313F /* 我的-我的预约_医生头像1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31601C12E2DB00E0313F /* 我的-我的预约_医生头像1@2x.png */; };
+		991A32391C12E2DC00E0313F /* 我的-我的预约_医生头像2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31611C12E2DB00E0313F /* 我的-我的预约_医生头像2@2x.png */; };
+		991A323A1C12E2DC00E0313F /* 我的-我的预约_实付@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31621C12E2DB00E0313F /* 我的-我的预约_实付@2x.png */; };
+		991A323B1C12E2DC00E0313F /* 我的-我的预约_未评价@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31631C12E2DB00E0313F /* 我的-我的预约_未评价@2x.png */; };
+		991A323C1C12E2DC00E0313F /* 我的-我的预约_未评价背景@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31641C12E2DB00E0313F /* 我的-我的预约_未评价背景@2x.png */; };
+		991A323D1C12E2DC00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31651C12E2DB00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1-1@2x.png */; };
+		991A323E1C12E2DC00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31661C12E2DB00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1-2@2x.png */; };
+		991A323F1C12E2DC00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1-3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31671C12E2DB00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1-3@2x.png */; };
+		991A32401C12E2DC00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1-4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31681C12E2DB00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1-4@2x.png */; };
+		991A32411C12E2DC00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1-5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31691C12E2DB00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1-5@2x.png */; };
+		991A32421C12E2DC00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1-6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A316A1C12E2DB00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1-6@2x.png */; };
+		991A32431C12E2DC00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A316B1C12E2DB00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1@2x.png */; };
+		991A32441C12E2DC00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A316C1C12E2DB00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像2@2x.png */; };
+		991A32451C12E2DC00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A316D1C12E2DB00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像3@2x.png */; };
+		991A32461C12E2DC00E0313F /* 我的-设置-评价软件_输入信息@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A316E1C12E2DB00E0313F /* 我的-设置-评价软件_输入信息@2x.png */; };
+		991A32471C12E2DC00E0313F /* 我的-设置_关于-点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A316F1C12E2DB00E0313F /* 我的-设置_关于-点击状态@2x.png */; };
+		991A32481C12E2DC00E0313F /* 我的-设置_关于-非点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31701C12E2DB00E0313F /* 我的-设置_关于-非点击状态@2x.png */; };
+		991A32491C12E2DC00E0313F /* 我的-设置_意见反馈-点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31711C12E2DB00E0313F /* 我的-设置_意见反馈-点击状态@2x.png */; };
+		991A324A1C12E2DC00E0313F /* 我的-设置_意见反馈-非点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31721C12E2DB00E0313F /* 我的-设置_意见反馈-非点击状态@2x.png */; };
+		991A324B1C12E2DC00E0313F /* 我的-设置_更多-非点击状态 (2)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31731C12E2DB00E0313F /* 我的-设置_更多-非点击状态 (2)@2x.png */; };
+		991A324C1C12E2DC00E0313F /* 我的-设置_更多-非点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31741C12E2DB00E0313F /* 我的-设置_更多-非点击状态@2x.png */; };
+		991A324D1C12E2DC00E0313F /* 我的-设置_更多点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31751C12E2DB00E0313F /* 我的-设置_更多点击状态@2x.png */; };
+		991A324E1C12E2DC00E0313F /* 我的-设置_清除缓存-点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31761C12E2DB00E0313F /* 我的-设置_清除缓存-点击状态@2x.png */; };
+		991A324F1C12E2DC00E0313F /* 我的-设置_清除缓存非点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31771C12E2DB00E0313F /* 我的-设置_清除缓存非点击状态@2x.png */; };
+		991A32501C12E2DC00E0313F /* 我的-设置_版本更新-点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31781C12E2DB00E0313F /* 我的-设置_版本更新-点击状态@2x.png */; };
+		991A32511C12E2DC00E0313F /* 我的-设置_版本更新-非点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31791C12E2DB00E0313F /* 我的-设置_版本更新-非点击状态@2x.png */; };
+		991A32521C12E2DC00E0313F /* 我的-设置_评价软件-点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A317A1C12E2DB00E0313F /* 我的-设置_评价软件-点击状态@2x.png */; };
+		991A32531C12E2DC00E0313F /* 我的-设置_评价软件-非点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A317B1C12E2DB00E0313F /* 我的-设置_评价软件-非点击状态@2x.png */; };
+		991A32541C12E2DC00E0313F /* 3H-注册_3H (2)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A317D1C12E2DB00E0313F /* 3H-注册_3H (2)@2x.png */; };
+		991A32551C12E2DC00E0313F /* 3H-注册_3H@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A317E1C12E2DB00E0313F /* 3H-注册_3H@2x.png */; };
+		991A32561C12E2DC00E0313F /* 3H-注册_全选@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A317F1C12E2DB00E0313F /* 3H-注册_全选@2x.png */; };
+		991A32571C12E2DC00E0313F /* 3H-注册_勾@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31801C12E2DB00E0313F /* 3H-注册_勾@2x.png */; };
+		991A32581C12E2DC00E0313F /* 3H-注册_立即注册@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31811C12E2DB00E0313F /* 3H-注册_立即注册@2x.png */; };
+		991A32591C12E2DC00E0313F /* 3H-注册_请输入手机号@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31821C12E2DB00E0313F /* 3H-注册_请输入手机号@2x.png */; };
+		991A325A1C12E2DC00E0313F /* 3H-注册_选框@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31831C12E2DB00E0313F /* 3H-注册_选框@2x.png */; };
+		991A325B1C12E2DC00E0313F /* 3H-注册_验证码@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31841C12E2DB00E0313F /* 3H-注册_验证码@2x.png */; };
+		991A325C1C12E2DC00E0313F /* 3H-我的_保密@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31861C12E2DB00E0313F /* 3H-我的_保密@2x.png */; };
+		991A325D1C12E2DC00E0313F /* 3H-我的_女@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31871C12E2DB00E0313F /* 3H-我的_女@2x.png */; };
+		991A325E1C12E2DC00E0313F /* 3H-我的_我的健康档案-点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31881C12E2DB00E0313F /* 3H-我的_我的健康档案-点击状态@2x.png */; };
+		991A325F1C12E2DC00E0313F /* 3H-我的_我的健康档案-非点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31891C12E2DB00E0313F /* 3H-我的_我的健康档案-非点击状态@2x.png */; };
+		991A32601C12E2DC00E0313F /* 3H-我的_我的收藏-点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A318A1C12E2DB00E0313F /* 3H-我的_我的收藏-点击状态@2x.png */; };
+		991A32611C12E2DC00E0313F /* 3H-我的_我的收藏-非点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A318B1C12E2DB00E0313F /* 3H-我的_我的收藏-非点击状态@2x.png */; };
+		991A32621C12E2DC00E0313F /* 3H-我的_我的积分-点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A318C1C12E2DB00E0313F /* 3H-我的_我的积分-点击状态@2x.png */; };
+		991A32631C12E2DC00E0313F /* 3H-我的_我的积分-非点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A318D1C12E2DB00E0313F /* 3H-我的_我的积分-非点击状态@2x.png */; };
+		991A32641C12E2DC00E0313F /* 3H-我的_我的订单-点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A318E1C12E2DB00E0313F /* 3H-我的_我的订单-点击状态@2x.png */; };
+		991A32651C12E2DC00E0313F /* 3H-我的_我的订单-非点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A318F1C12E2DB00E0313F /* 3H-我的_我的订单-非点击状态@2x.png */; };
+		991A32661C12E2DC00E0313F /* 3H-我的_我的钱包-点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31901C12E2DB00E0313F /* 3H-我的_我的钱包-点击状态@2x.png */; };
+		991A32671C12E2DC00E0313F /* 3H-我的_我的钱包-非点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31911C12E2DB00E0313F /* 3H-我的_我的钱包-非点击状态@2x.png */; };
+		991A32681C12E2DC00E0313F /* 3H-我的_我的预约-点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31921C12E2DB00E0313F /* 3H-我的_我的预约-点击状态@2x.png */; };
+		991A32691C12E2DC00E0313F /* 3H-我的_我的预约-非点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31931C12E2DC00E0313F /* 3H-我的_我的预约-非点击状态@2x.png */; };
+		991A326A1C12E2DC00E0313F /* 3H-我的_李小光-男-背景@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31941C12E2DC00E0313F /* 3H-我的_李小光-男-背景@2x.png */; };
+		991A326B1C12E2DC00E0313F /* 3H-我的_李小光-男@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31951C12E2DC00E0313F /* 3H-我的_李小光-男@2x.png */; };
+		991A326C1C12E2DC00E0313F /* 3H-我的_李小光-背景@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31961C12E2DC00E0313F /* 3H-我的_李小光-背景@2x.png */; };
+		991A326D1C12E2DC00E0313F /* 3H-我的_李小光头像@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31971C12E2DC00E0313F /* 3H-我的_李小光头像@2x.png */; };
+		991A326E1C12E2DC00E0313F /* 3H-我的_设置-点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31981C12E2DC00E0313F /* 3H-我的_设置-点击状态@2x.png */; };
+		991A326F1C12E2DC00E0313F /* 3H-我的_设置-非点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31991C12E2DC00E0313F /* 3H-我的_设置-非点击状态@2x.png */; };
+		991A32701C12E2DC00E0313F /* 3H-消息-预约提醒-全选_删除@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A319A1C12E2DC00E0313F /* 3H-消息-预约提醒-全选_删除@2x.png */; };
+		991A32711C12E2DC00E0313F /* 3H-消息_复查提醒@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A319B1C12E2DC00E0313F /* 3H-消息_复查提醒@2x.png */; };
+		991A32721C12E2DC00E0313F /* 3H-消息_用药提醒@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A319C1C12E2DC00E0313F /* 3H-消息_用药提醒@2x.png */; };
+		991A32731C12E2DC00E0313F /* 3H-消息_系统消息@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A319D1C12E2DC00E0313F /* 3H-消息_系统消息@2x.png */; };
+		991A32741C12E2DC00E0313F /* 3H-消息_订单提醒@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A319E1C12E2DC00E0313F /* 3H-消息_订单提醒@2x.png */; };
+		991A32751C12E2DC00E0313F /* 3H-消息_预约提醒@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A319F1C12E2DC00E0313F /* 3H-消息_预约提醒@2x.png */; };
+		991A32761C12E2DC00E0313F /* QQ@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31A11C12E2DC00E0313F /* QQ@2x.png */; };
+		991A32771C12E2DC00E0313F /* 微信@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31A21C12E2DC00E0313F /* 微信@2x.png */; };
+		991A32781C12E2DC00E0313F /* 新浪微博@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31A31C12E2DC00E0313F /* 新浪微博@2x.png */; };
+		991A32791C12E2DC00E0313F /* 3H-首页-天气@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31A51C12E2DC00E0313F /* 3H-首页-天气@2x.png */; };
+		991A327A1C12E2DC00E0313F /* 3H-首页-心率-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31A61C12E2DC00E0313F /* 3H-首页-心率-2@2x.png */; };
+		991A327B1C12E2DC00E0313F /* 3H-首页-心率@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31A71C12E2DC00E0313F /* 3H-首页-心率@2x.png */; };
+		991A327C1C12E2DC00E0313F /* 3H-首页_小车@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31A81C12E2DC00E0313F /* 3H-首页_小车@2x.png */; };
+		991A327D1C12E2DC00E0313F /* 3H-首页_心率0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31A91C12E2DC00E0313F /* 3H-首页_心率0@2x.png */; };
+		991A327E1C12E2DC00E0313F /* 3H-首页-健康资讯_29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31AB1C12E2DC00E0313F /* 3H-首页-健康资讯_29@2x.png */; };
+		991A327F1C12E2DC00E0313F /* 3H-首页-监测仪2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31AC1C12E2DC00E0313F /* 3H-首页-监测仪2@2x.png */; };
+		991A32801C12E2DC00E0313F /* 3H-首页_监测仪1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31AD1C12E2DC00E0313F /* 3H-首页_监测仪1@2x.png */; };
+		991A32811C12E2DC00E0313F /* 3H-首页_监测仪3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31AE1C12E2DC00E0313F /* 3H-首页_监测仪3@2x.png */; };
+		991A32821C12E2DC00E0313F /* 首页-健康商城-商品详情-立即购买_图片@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31AF1C12E2DC00E0313F /* 首页-健康商城-商品详情-立即购买_图片@2x.png */; };
+		991A32831C12E2DC00E0313F /* 首页-健康商城-商品详情-立即购买_填写收货地址@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31B01C12E2DC00E0313F /* 首页-健康商城-商品详情-立即购买_填写收货地址@2x.png */; };
+		991A32841C12E2DC00E0313F /* 首页-健康商城-商品详情-立即购买_支付-点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31B11C12E2DC00E0313F /* 首页-健康商城-商品详情-立即购买_支付-点击状态@2x.png */; };
+		991A32851C12E2DC00E0313F /* 首页-健康商城-商品详情-立即购买_点击-非点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31B21C12E2DC00E0313F /* 首页-健康商城-商品详情-立即购买_点击-非点击状态@2x.png */; };
+		991A32861C12E2DC00E0313F /* 首页-健康商城-商品详情-立即购买_确认并支付@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31B31C12E2DC00E0313F /* 首页-健康商城-商品详情-立即购买_确认并支付@2x.png */; };
+		991A32871C12E2DC00E0313F /* 首页-健康商城-商品详情_Banner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31B41C12E2DC00E0313F /* 首页-健康商城-商品详情_Banner@2x.png */; };
+		991A32881C12E2DC00E0313F /* 首页-健康商城-商品详情_加入购物车@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31B51C12E2DC00E0313F /* 首页-健康商城-商品详情_加入购物车@2x.png */; };
+		991A32891C12E2DC00E0313F /* 首页-健康商城-商品详情_商品介绍@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31B61C12E2DC00E0313F /* 首页-健康商城-商品详情_商品介绍@2x.png */; };
+		991A328A1C12E2DC00E0313F /* 首页-健康商城-商品详情_头像1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31B71C12E2DC00E0313F /* 首页-健康商城-商品详情_头像1@2x.png */; };
+		991A328B1C12E2DC00E0313F /* 首页-健康商城-商品详情_头像2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31B81C12E2DC00E0313F /* 首页-健康商城-商品详情_头像2@2x.png */; };
+		991A328C1C12E2DC00E0313F /* 首页-健康商城-商品详情_收藏@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31B91C12E2DC00E0313F /* 首页-健康商城-商品详情_收藏@2x.png */; };
+		991A328D1C12E2DC00E0313F /* 首页-健康商城-商品详情_数量+@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31BA1C12E2DC00E0313F /* 首页-健康商城-商品详情_数量+@2x.png */; };
+		991A328E1C12E2DC00E0313F /* 首页-健康商城-商品详情_数量-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31BB1C12E2DC00E0313F /* 首页-健康商城-商品详情_数量-@2x.png */; };
+		991A328F1C12E2DC00E0313F /* 首页-健康商城-商品详情_立即购买@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31BC1C12E2DC00E0313F /* 首页-健康商城-商品详情_立即购买@2x.png */; };
+		991A32901C12E2DC00E0313F /* 首页-健康商城-商品详情_评论@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31BD1C12E2DC00E0313F /* 首页-健康商城-商品详情_评论@2x.png */; };
+		991A32911C12E2DC00E0313F /* 首页-健康商城-商品详情_购物车@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31BE1C12E2DC00E0313F /* 首页-健康商城-商品详情_购物车@2x.png */; };
+		991A32921C12E2DC00E0313F /* 首页-健康商城_Banner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31BF1C12E2DC00E0313F /* 首页-健康商城_Banner@2x.png */; };
+		991A32931C12E2DC00E0313F /* 首页-健康商城_监测仪1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31C01C12E2DC00E0313F /* 首页-健康商城_监测仪1@2x.png */; };
+		991A32941C12E2DC00E0313F /* 首页-健康商城_监测仪2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31C11C12E2DC00E0313F /* 首页-健康商城_监测仪2@2x.png */; };
+		991A32951C12E2DC00E0313F /* 首页-健康商城_监测仪3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31C21C12E2DC00E0313F /* 首页-健康商城_监测仪3@2x.png */; };
+		991A32961C12E2DC00E0313F /* 首页-健康商城_监测仪4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31C31C12E2DC00E0313F /* 首页-健康商城_监测仪4@2x.png */; };
+		991A32971C12E2DC00E0313F /* 3H-首页_健康日程 (2)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31C51C12E2DC00E0313F /* 3H-首页_健康日程 (2)@2x.png */; };
+		991A32981C12E2DC00E0313F /* 3H-首页_健康日程@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31C61C12E2DC00E0313F /* 3H-首页_健康日程@2x.png */; };
+		991A32991C12E2DC00E0313F /* 3H-首页_健康管理 (2)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31C81C12E2DC00E0313F /* 3H-首页_健康管理 (2)@2x.png */; };
+		991A329A1C12E2DC00E0313F /* 3H-首页_健康管理@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31C91C12E2DC00E0313F /* 3H-首页_健康管理@2x.png */; };
+		991A329B1C12E2DC00E0313F /* 3H-首页_新药研发@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31CB1C12E2DC00E0313F /* 3H-首页_新药研发@2x.png */; };
+		991A329C1C12E2DC00E0313F /* 3H-首页_浅谈国际@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31CC1C12E2DC00E0313F /* 3H-首页_浅谈国际@2x.png */; };
+		991A329D1C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论-发表评论_图片@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31CD1C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论-发表评论_图片@2x.png */; };
+		991A329E1C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论2_发表@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31CE1C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论2_发表@2x.png */; };
+		991A329F1C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论2_添加@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31CF1C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论2_添加@2x.png */; };
+		991A32A01C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论2_表情@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31D01C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论2_表情@2x.png */; };
+		991A32A11C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论2_输入框@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31D11C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论2_输入框@2x.png */; };
+		991A32A21C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31D21C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论@2x.png */; };
+		991A32A31C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论_分享@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31D31C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论_分享@2x.png */; };
+		991A32A41C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论_输入框@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31D41C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论_输入框@2x.png */; };
+		991A32A51C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论_铅笔@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31D51C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论_铅笔@2x.png */; };
+		991A32A61C12E2DC00E0313F /* 首页-健康资讯_Banner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31D61C12E2DC00E0313F /* 首页-健康资讯_Banner@2x.png */; };
+		991A32A71C12E2DC00E0313F /* 首页-健康资讯_图1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31D71C12E2DC00E0313F /* 首页-健康资讯_图1@2x.png */; };
+		991A32A81C12E2DC00E0313F /* 首页-健康资讯_图2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31D81C12E2DC00E0313F /* 首页-健康资讯_图2@2x.png */; };
+		991A32A91C12E2DC00E0313F /* 首页-健康资讯_图3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31D91C12E2DC00E0313F /* 首页-健康资讯_图3@2x.png */; };
+		991A32AA1C12E2DC00E0313F /* 首页-健康资讯_图4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31DA1C12E2DC00E0313F /* 首页-健康资讯_图4@2x.png */; };
+		991A32AB1C12E2DC00E0313F /* 首页-健康资讯_搜索@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31DB1C12E2DC00E0313F /* 首页-健康资讯_搜索@2x.png */; };
+		991A32AC1C12E2DC00E0313F /* 首页-健康资讯_时间@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31DC1C12E2DC00E0313F /* 首页-健康资讯_时间@2x.png */; };
+		991A32AD1C12E2DC00E0313F /* 首页-健康资讯_返回@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31DD1C12E2DC00E0313F /* 首页-健康资讯_返回@2x.png */; };
+		991A32AE1C12E2DC00E0313F /* 首页-新药研发_图片@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31DE1C12E2DC00E0313F /* 首页-新药研发_图片@2x.png */; };
+		991A32AF1C12E2DC00E0313F /* 首页-新药研发_更多@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31DF1C12E2DC00E0313F /* 首页-新药研发_更多@2x.png */; };
+		991A32B01C12E2DC00E0313F /* 首页-新药研发_点赞@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31E01C12E2DC00E0313F /* 首页-新药研发_点赞@2x.png */; };
+		991A32B11C12E2DC00E0313F /* 首页-新药研发_评论@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31E11C12E2DC00E0313F /* 首页-新药研发_评论@2x.png */; };
+		991A32B21C12E2DC00E0313F /* 3H-首页_健康-点击状态 (2)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31E31C12E2DC00E0313F /* 3H-首页_健康-点击状态 (2)@2x.png */; };
+		991A32B31C12E2DC00E0313F /* 3H-首页_健康-点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31E41C12E2DC00E0313F /* 3H-首页_健康-点击状态@2x.png */; };
+		991A32B41C12E2DC00E0313F /* 3H-首页_健康-非点击状态 (2)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31E51C12E2DC00E0313F /* 3H-首页_健康-非点击状态 (2)@2x.png */; };
+		991A32B51C12E2DC00E0313F /* 3H-首页_健康-非点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31E61C12E2DC00E0313F /* 3H-首页_健康-非点击状态@2x.png */; };
+		991A32B61C12E2DC00E0313F /* 3H-首页_我的-点击状态 (2)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31E71C12E2DC00E0313F /* 3H-首页_我的-点击状态 (2)@2x.png */; };
+		991A32B71C12E2DC00E0313F /* 3H-首页_我的-点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31E81C12E2DC00E0313F /* 3H-首页_我的-点击状态@2x.png */; };
+		991A32B81C12E2DC00E0313F /* 3H-首页_我的-非点击状态 (2)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31E91C12E2DC00E0313F /* 3H-首页_我的-非点击状态 (2)@2x.png */; };
+		991A32B91C12E2DC00E0313F /* 3H-首页_我的-非点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31EA1C12E2DC00E0313F /* 3H-首页_我的-非点击状态@2x.png */; };
+		991A32BA1C12E2DC00E0313F /* 3H-首页_消息-点击状态 (2)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31EB1C12E2DC00E0313F /* 3H-首页_消息-点击状态 (2)@2x.png */; };
+		991A32BB1C12E2DC00E0313F /* 3H-首页_消息-点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31EC1C12E2DC00E0313F /* 3H-首页_消息-点击状态@2x.png */; };
+		991A32BC1C12E2DC00E0313F /* 3H-首页_消息-非点击状态 (2)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31ED1C12E2DC00E0313F /* 3H-首页_消息-非点击状态 (2)@2x.png */; };
+		991A32BD1C12E2DC00E0313F /* 3H-首页_消息-非点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31EE1C12E2DC00E0313F /* 3H-首页_消息-非点击状态@2x.png */; };
+		991A32BE1C12E2DC00E0313F /* 3H-首页_首页-点击状态 (2)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31EF1C12E2DC00E0313F /* 3H-首页_首页-点击状态 (2)@2x.png */; };
+		991A32BF1C12E2DC00E0313F /* 3H-首页_首页-点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31F01C12E2DC00E0313F /* 3H-首页_首页-点击状态@2x.png */; };
+		991A32C01C12E2DC00E0313F /* 3H-首页_首页-非点击状态 (2)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31F11C12E2DC00E0313F /* 3H-首页_首页-非点击状态 (2)@2x.png */; };
+		991A32C11C12E2DC00E0313F /* 3H-首页_首页-非点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31F21C12E2DC00E0313F /* 3H-首页_首页-非点击状态@2x.png */; };
+		991A32C21C12E2DC00E0313F /* 3H-首页_我要咨询 (2)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31F41C12E2DC00E0313F /* 3H-首页_我要咨询 (2)@2x.png */; };
+		991A32C31C12E2DC00E0313F /* 3H-首页_我要咨询@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31F51C12E2DC00E0313F /* 3H-首页_我要咨询@2x.png */; };
+		991A32C41C12E2DC00E0313F /* 首页-我要咨询-医生列表_搜索图标@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31F61C12E2DC00E0313F /* 首页-我要咨询-医生列表_搜索图标@2x.png */; };
+		991A32C51C12E2DC00E0313F /* 首页-我要咨询-在线咨询-2_拍照@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31F71C12E2DC00E0313F /* 首页-我要咨询-在线咨询-2_拍照@2x.png */; };
+		991A32C61C12E2DC00E0313F /* 首页-我要咨询-在线咨询-医生列表-搜索_取消@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31F81C12E2DC00E0313F /* 首页-我要咨询-在线咨询-医生列表-搜索_取消@2x.png */; };
+		991A32C71C12E2DC00E0313F /* 首页-我要咨询-在线咨询-医生列表-搜索_搜索框@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31F91C12E2DC00E0313F /* 首页-我要咨询-在线咨询-医生列表-搜索_搜索框@2x.png */; };
+		991A32C81C12E2DC00E0313F /* 首页-我要咨询-在线咨询_3H头像@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31FA1C12E2DC00E0313F /* 首页-我要咨询-在线咨询_3H头像@2x.png */; };
+		991A32C91C12E2DC00E0313F /* 首页-我要咨询-在线咨询_对话框1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31FB1C12E2DC00E0313F /* 首页-我要咨询-在线咨询_对话框1@2x.png */; };
+		991A32CA1C12E2DC00E0313F /* 首页-我要咨询-在线咨询_对话框2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31FC1C12E2DC00E0313F /* 首页-我要咨询-在线咨询_对话框2@2x.png */; };
+		991A32CB1C12E2DC00E0313F /* 首页-我要咨询-在线咨询_更多@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31FD1C12E2DC00E0313F /* 首页-我要咨询-在线咨询_更多@2x.png */; };
+		991A32CC1C12E2DC00E0313F /* 首页-我要咨询-在线咨询_表情@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31FE1C12E2DC00E0313F /* 首页-我要咨询-在线咨询_表情@2x.png */; };
+		991A32CD1C12E2DC00E0313F /* 首页-我要咨询-在线咨询_语音@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A31FF1C12E2DC00E0313F /* 首页-我要咨询-在线咨询_语音@2x.png */; };
+		991A32CE1C12E2DC00E0313F /* 首页-我要咨询-在线咨询_输入框@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A32001C12E2DC00E0313F /* 首页-我要咨询-在线咨询_输入框@2x.png */; };
+		991A32CF1C12E2DC00E0313F /* 首页-我要咨询-电话咨询_信息框@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A32011C12E2DC00E0313F /* 首页-我要咨询-电话咨询_信息框@2x.png */; };
+		991A32D01C12E2DC00E0313F /* 首页-我要咨询-电话咨询_外框@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A32021C12E2DC00E0313F /* 首页-我要咨询-电话咨询_外框@2x.png */; };
+		991A32D11C12E2DC00E0313F /* 首页-我要咨询-电话咨询_描述信息@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A32031C12E2DC00E0313F /* 首页-我要咨询-电话咨询_描述信息@2x.png */; };
+		991A32D21C12E2DC00E0313F /* 首页-我要咨询_医生列表图标@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A32041C12E2DC00E0313F /* 首页-我要咨询_医生列表图标@2x.png */; };
+		991A32D31C12E2DC00E0313F /* 首页-我要咨询_在线咨询@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A32051C12E2DC00E0313F /* 首页-我要咨询_在线咨询@2x.png */; };
+		991A32D41C12E2DC00E0313F /* 首页-我要咨询_电话咨询@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A32061C12E2DC00E0313F /* 首页-我要咨询_电话咨询@2x.png */; };
+		991A32D51C12E2DC00E0313F /* 3H-首页_我要预约 (2)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A32081C12E2DC00E0313F /* 3H-首页_我要预约 (2)@2x.png */; };
+		991A32D61C12E2DC00E0313F /* 3H-首页_我要预约@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A32091C12E2DC00E0313F /* 3H-首页_我要预约@2x.png */; };
+		991A32D71C12E2DC00E0313F /* 首页-我要预约-预约住院_留言框@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A320A1C12E2DC00E0313F /* 首页-我要预约-预约住院_留言框@2x.png */; };
+		991A32D81C12E2DC00E0313F /* 首页-我要预约-预约住院_预约留言@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A320B1C12E2DC00E0313F /* 首页-我要预约-预约住院_预约留言@2x.png */; };
+		991A32D91C12E2DC00E0313F /* 首页-我要预约-预约挂号-2_挂号费用3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A320C1C12E2DC00E0313F /* 首页-我要预约-预约挂号-2_挂号费用3@2x.png */; };
+		991A32DA1C12E2DC00E0313F /* 首页-我要预约-预约挂号-2_日期-未选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A320D1C12E2DC00E0313F /* 首页-我要预约-预约挂号-2_日期-未选中@2x.png */; };
+		991A32DB1C12E2DC00E0313F /* 首页-我要预约-预约挂号-2_日期-选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A320E1C12E2DC00E0313F /* 首页-我要预约-预约挂号-2_日期-选中@2x.png */; };
+		991A32DC1C12E2DC00E0313F /* 首页-我要预约-预约挂号-2_时间-点击状态@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A320F1C12E2DC00E0313F /* 首页-我要预约-预约挂号-2_时间-点击状态@2x.png */; };
+		991A32DD1C12E2DC00E0313F /* 首页-我要预约-预约挂号-2_预约时间@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A32101C12E2DC00E0313F /* 首页-我要预约-预约挂号-2_预约时间@2x.png */; };
+		991A32DE1C12E2DC00E0313F /* 首页-我要预约-预约挂号2-预约成功_预约成功@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A32111C12E2DC00E0313F /* 首页-我要预约-预约挂号2-预约成功_预约成功@2x.png */; };
+		991A32DF1C12E2DC00E0313F /* 首页-我要预约-预约挂号_头像@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A32121C12E2DC00E0313F /* 首页-我要预约-预约挂号_头像@2x.png */; };
+		991A32E01C12E2DC00E0313F /* 首页-我要预约-预约挂号_擅长@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A32131C12E2DC00E0313F /* 首页-我要预约-预约挂号_擅长@2x.png */; };
+		991A32E11C12E2DC00E0313F /* 首页-我要预约-预约挂号_简介@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A32141C12E2DC00E0313F /* 首页-我要预约-预约挂号_简介@2x.png */; };
+		991A32E21C12E2DC00E0313F /* 首页-我要预约-预约挂号_背景@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A32151C12E2DC00E0313F /* 首页-我要预约-预约挂号_背景@2x.png */; };
+		991A32E31C12E2DC00E0313F /* 首页-我要预约_预约专家电话咨询@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A32161C12E2DC00E0313F /* 首页-我要预约_预约专家电话咨询@2x.png */; };
+		991A32E41C12E2DC00E0313F /* 首页-我要预约_预约住院@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A32171C12E2DC00E0313F /* 首页-我要预约_预约住院@2x.png */; };
+		991A32E51C12E2DC00E0313F /* 首页-我要预约_预约挂号@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A32181C12E2DC00E0313F /* 首页-我要预约_预约挂号@2x.png */; };
+		991A32E71C12E39400E0313F /* arrowImg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A32E61C12E39400E0313F /* arrowImg@2x.png */; };
+		991A32EE1C12E5C100E0313F /* ManageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 991A32ED1C12E5C100E0313F /* ManageViewController.m */; };
+		991A32F11C12E5E900E0313F /* AppointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 991A32F01C12E5E900E0313F /* AppointViewController.m */; };
+		991A32F41C12E60400E0313F /* ManageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 991A32F31C12E60400E0313F /* ManageTableViewCell.m */; };
+		991A32F71C12E61500E0313F /* AppointTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 991A32F61C12E61500E0313F /* AppointTableViewCell.m */; };
+		991A32F91C12E7E400E0313F /* backbtnimg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 991A32F81C12E7E400E0313F /* backbtnimg@2x.png */; };
+		991A32FC1C12ED7100E0313F /* HealthTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 991A32FB1C12ED7100E0313F /* HealthTableViewCell.m */; };
+		991A32FF1C12EFD700E0313F /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 991A32FE1C12EFD700E0313F /* MessageTableViewCell.m */; };
+		991A33021C12F5BF00E0313F /* MineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 991A33011C12F5BF00E0313F /* MineTableViewCell.m */; };
+		991A33051C12F5D500E0313F /* MineHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 991A33041C12F5D500E0313F /* MineHeadView.m */; };
+		991A330C1C12FFDA00E0313F /* PersonalHeadTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 991A33071C12FFDA00E0313F /* PersonalHeadTableViewCell.m */; };
+		991A330D1C12FFDA00E0313F /* PersonalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 991A33091C12FFDA00E0313F /* PersonalTableViewCell.m */; };
+		991A330E1C12FFDA00E0313F /* SetUpTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 991A330B1C12FFDA00E0313F /* SetUpTableViewCell.m */; };
+		991A33151C12FFE400E0313F /* PersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 991A33111C12FFE400E0313F /* PersonalViewController.m */; };
+		991A33161C12FFE400E0313F /* SetUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 991A33141C12FFE400E0313F /* SetUpViewController.m */; };
+		993669601C132A8E00B3E1C7 /* ShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9936695F1C132A8E00B3E1C7 /* ShopViewController.m */; };
+		993669661C132C6800B3E1C7 /* ConsultingDynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 993669631C132C6800B3E1C7 /* ConsultingDynamicViewController.m */; };
+		993669671C132C6800B3E1C7 /* DynamicDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 993669651C132C6800B3E1C7 /* DynamicDetailViewController.m */; };
+		993669701C132C7600B3E1C7 /* ConsultingDynamicHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 993669691C132C7600B3E1C7 /* ConsultingDynamicHeadView.m */; };
+		993669711C132C7600B3E1C7 /* ConsultingDynamicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9936696B1C132C7600B3E1C7 /* ConsultingDynamicTableViewCell.m */; };
+		993669721C132C7600B3E1C7 /* DynamicDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9936696D1C132C7600B3E1C7 /* DynamicDetailTableViewCell.m */; };
+		993669731C132C7600B3E1C7 /* DynamicDetailToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9936696F1C132C7600B3E1C7 /* DynamicDetailToolView.m */; };
+		993669761C132D5F00B3E1C7 /* ShopTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 993669751C132D5F00B3E1C7 /* ShopTableViewCell.m */; };
+		993669791C132DCB00B3E1C7 /* ShopCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 993669781C132DCB00B3E1C7 /* ShopCustomView.m */; };
+		9936697C1C13331400B3E1C7 /* ShopDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9936697B1C13331400B3E1C7 /* ShopDetailViewController.m */; };
+		9936697F1C13335D00B3E1C7 /* ShopDetailNameTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9936697E1C13335D00B3E1C7 /* ShopDetailNameTableViewCell.m */; };
+		993669821C13336F00B3E1C7 /* ShopDetailNumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 993669811C13336F00B3E1C7 /* ShopDetailNumTableViewCell.m */; };
+		993669851C13339200B3E1C7 /* ShopDetailDescTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 993669841C13339200B3E1C7 /* ShopDetailDescTableViewCell.m */; };
+		993669881C1333ED00B3E1C7 /* ShopDetailTitleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 993669871C1333ED00B3E1C7 /* ShopDetailTitleTableViewCell.m */; };
+		9936698B1C13340D00B3E1C7 /* ShopDetailCommentsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9936698A1C13340D00B3E1C7 /* ShopDetailCommentsTableViewCell.m */; };
+		9936698E1C13343F00B3E1C7 /* ShopDetailToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9936698D1C13343F00B3E1C7 /* ShopDetailToolView.m */; };
 		99DA3EB41C0BE4CF00573D4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DA3EB31C0BE4CF00573D4C /* main.m */; };
 		99DA3EB71C0BE4CF00573D4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DA3EB61C0BE4CF00573D4C /* AppDelegate.m */; };
 		99DA3EBA1C0BE4CF00573D4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99DA3EB91C0BE4CF00573D4C /* ViewController.m */; };
@@ -147,8 +384,275 @@
 		991A312C1C11E9C800E0313F /* HomeTitleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTitleTableViewCell.m; sourceTree = "<group>"; };
 		991A312E1C11E9EC00E0313F /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
 		991A312F1C11E9EC00E0313F /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
-		991A31311C11EA0E00E0313F /* HomeSlidingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeSlidingTableViewCell.h; sourceTree = "<group>"; };
-		991A31321C11EA0E00E0313F /* HomeSlidingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeSlidingTableViewCell.m; sourceTree = "<group>"; };
+		991A31341C12D9B300E0313F /* HomeSlidingCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeSlidingCustomView.h; sourceTree = "<group>"; };
+		991A31351C12D9B300E0313F /* HomeSlidingCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeSlidingCustomView.m; sourceTree = "<group>"; };
+		991A31371C12DE8200E0313F /* HomeSlidingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeSlidingTableViewCell.h; sourceTree = "<group>"; };
+		991A31381C12DE8200E0313F /* HomeSlidingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeSlidingTableViewCell.m; sourceTree = "<group>"; };
+		991A313D1C12E2DB00E0313F /* 3H-健康_健康日程@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-健康_健康日程@2x.png"; sourceTree = "<group>"; };
+		991A313E1C12E2DB00E0313F /* 首页-健康日程_复查提醒@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康日程_复查提醒@2x.png"; sourceTree = "<group>"; };
+		991A313F1C12E2DB00E0313F /* 首页-健康日程_日期-点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康日程_日期-点击状态@2x.png"; sourceTree = "<group>"; };
+		991A31401C12E2DB00E0313F /* 首页-健康日程_检查提醒@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康日程_检查提醒@2x.png"; sourceTree = "<group>"; };
+		991A31411C12E2DB00E0313F /* 首页-健康日程_用药提醒@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康日程_用药提醒@2x.png"; sourceTree = "<group>"; };
+		991A31431C12E2DB00E0313F /* 3H-健康_健康管理@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-健康_健康管理@2x.png"; sourceTree = "<group>"; };
+		991A31441C12E2DB00E0313F /* 首页-健康管理-主要诊断-主要诊断搜索_搜索@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康管理-主要诊断-主要诊断搜索_搜索@2x.png"; sourceTree = "<group>"; };
+		991A31451C12E2DB00E0313F /* 首页-健康管理-主要诊断-主要诊断搜索_搜索框@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康管理-主要诊断-主要诊断搜索_搜索框@2x.png"; sourceTree = "<group>"; };
+		991A31461C12E2DB00E0313F /* 首页-健康管理_主要诊断@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康管理_主要诊断@2x.png"; sourceTree = "<group>"; };
+		991A31471C12E2DB00E0313F /* 首页-健康管理_复查指南@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康管理_复查指南@2x.png"; sourceTree = "<group>"; };
+		991A31481C12E2DB00E0313F /* 首页-健康管理_检查及检查数据@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康管理_检查及检查数据@2x.png"; sourceTree = "<group>"; };
+		991A31491C12E2DB00E0313F /* 首页-健康管理_用药指南@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康管理_用药指南@2x.png"; sourceTree = "<group>"; };
+		991A314A1C12E2DB00E0313F /* 首页-健康管理_简要病史@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康管理_简要病史@2x.png"; sourceTree = "<group>"; };
+		991A314C1C12E2DB00E0313F /* 3H-健康_咨询专家@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-健康_咨询专家@2x.png"; sourceTree = "<group>"; };
+		991A314E1C12E2DB00E0313F /* 3H-健康_预约@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-健康_预约@2x.png"; sourceTree = "<group>"; };
+		991A31501C12E2DB00E0313F /* 我的-个人资料_病人头像@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-个人资料_病人头像@2x.png"; sourceTree = "<group>"; };
+		991A31511C12E2DB00E0313F /* 我的-我的收藏_图片@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-我的收藏_图片@2x.png"; sourceTree = "<group>"; };
+		991A31521C12E2DB00E0313F /* 我的-我的收藏_心@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-我的收藏_心@2x.png"; sourceTree = "<group>"; };
+		991A31531C12E2DB00E0313F /* 我的-我的收藏_收藏-未点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-我的收藏_收藏-未点击状态@2x.png"; sourceTree = "<group>"; };
+		991A31541C12E2DB00E0313F /* 我的-我的收藏_收藏-点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-我的收藏_收藏-点击状态@2x.png"; sourceTree = "<group>"; };
+		991A31551C12E2DB00E0313F /* 我的-我的订单_九康科技LOGO@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-我的订单_九康科技LOGO@2x.png"; sourceTree = "<group>"; };
+		991A31561C12E2DB00E0313F /* 我的-我的订单_删除订单@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-我的订单_删除订单@2x.png"; sourceTree = "<group>"; };
+		991A31571C12E2DB00E0313F /* 我的-我的订单_图片@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-我的订单_图片@2x.png"; sourceTree = "<group>"; };
+		991A31581C12E2DB00E0313F /* 我的-我的订单_评价订单@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-我的订单_评价订单@2x.png"; sourceTree = "<group>"; };
+		991A31591C12E2DB00E0313F /* 我的-我的钱包_充值-未点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-我的钱包_充值-未点击状态@2x.png"; sourceTree = "<group>"; };
+		991A315A1C12E2DB00E0313F /* 我的-我的钱包_充值-点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-我的钱包_充值-点击状态@2x.png"; sourceTree = "<group>"; };
+		991A315B1C12E2DB00E0313F /* 我的-我的钱包_订单记录-未点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-我的钱包_订单记录-未点击状态@2x.png"; sourceTree = "<group>"; };
+		991A315C1C12E2DB00E0313F /* 我的-我的钱包_订单记录-点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-我的钱包_订单记录-点击状态@2x.png"; sourceTree = "<group>"; };
+		991A315D1C12E2DB00E0313F /* 我的-我的钱包_账户余额@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-我的钱包_账户余额@2x.png"; sourceTree = "<group>"; };
+		991A315E1C12E2DB00E0313F /* 我的-我的预约_上@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-我的预约_上@2x.png"; sourceTree = "<group>"; };
+		991A315F1C12E2DB00E0313F /* 我的-我的预约_下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-我的预约_下@2x.png"; sourceTree = "<group>"; };
+		991A31601C12E2DB00E0313F /* 我的-我的预约_医生头像1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-我的预约_医生头像1@2x.png"; sourceTree = "<group>"; };
+		991A31611C12E2DB00E0313F /* 我的-我的预约_医生头像2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-我的预约_医生头像2@2x.png"; sourceTree = "<group>"; };
+		991A31621C12E2DB00E0313F /* 我的-我的预约_实付@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-我的预约_实付@2x.png"; sourceTree = "<group>"; };
+		991A31631C12E2DB00E0313F /* 我的-我的预约_未评价@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-我的预约_未评价@2x.png"; sourceTree = "<group>"; };
+		991A31641C12E2DB00E0313F /* 我的-我的预约_未评价背景@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-我的预约_未评价背景@2x.png"; sourceTree = "<group>"; };
+		991A31651C12E2DB00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1-1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-我要预约-预约挂号-预约挂号_头像1-1@2x.png"; sourceTree = "<group>"; };
+		991A31661C12E2DB00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-我要预约-预约挂号-预约挂号_头像1-2@2x.png"; sourceTree = "<group>"; };
+		991A31671C12E2DB00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1-3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-我要预约-预约挂号-预约挂号_头像1-3@2x.png"; sourceTree = "<group>"; };
+		991A31681C12E2DB00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1-4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-我要预约-预约挂号-预约挂号_头像1-4@2x.png"; sourceTree = "<group>"; };
+		991A31691C12E2DB00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1-5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-我要预约-预约挂号-预约挂号_头像1-5@2x.png"; sourceTree = "<group>"; };
+		991A316A1C12E2DB00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1-6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-我要预约-预约挂号-预约挂号_头像1-6@2x.png"; sourceTree = "<group>"; };
+		991A316B1C12E2DB00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-我要预约-预约挂号-预约挂号_头像1@2x.png"; sourceTree = "<group>"; };
+		991A316C1C12E2DB00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-我要预约-预约挂号-预约挂号_头像2@2x.png"; sourceTree = "<group>"; };
+		991A316D1C12E2DB00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-我要预约-预约挂号-预约挂号_头像3@2x.png"; sourceTree = "<group>"; };
+		991A316E1C12E2DB00E0313F /* 我的-设置-评价软件_输入信息@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-设置-评价软件_输入信息@2x.png"; sourceTree = "<group>"; };
+		991A316F1C12E2DB00E0313F /* 我的-设置_关于-点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-设置_关于-点击状态@2x.png"; sourceTree = "<group>"; };
+		991A31701C12E2DB00E0313F /* 我的-设置_关于-非点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-设置_关于-非点击状态@2x.png"; sourceTree = "<group>"; };
+		991A31711C12E2DB00E0313F /* 我的-设置_意见反馈-点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-设置_意见反馈-点击状态@2x.png"; sourceTree = "<group>"; };
+		991A31721C12E2DB00E0313F /* 我的-设置_意见反馈-非点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-设置_意见反馈-非点击状态@2x.png"; sourceTree = "<group>"; };
+		991A31731C12E2DB00E0313F /* 我的-设置_更多-非点击状态 (2)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-设置_更多-非点击状态 (2)@2x.png"; sourceTree = "<group>"; };
+		991A31741C12E2DB00E0313F /* 我的-设置_更多-非点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-设置_更多-非点击状态@2x.png"; sourceTree = "<group>"; };
+		991A31751C12E2DB00E0313F /* 我的-设置_更多点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-设置_更多点击状态@2x.png"; sourceTree = "<group>"; };
+		991A31761C12E2DB00E0313F /* 我的-设置_清除缓存-点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-设置_清除缓存-点击状态@2x.png"; sourceTree = "<group>"; };
+		991A31771C12E2DB00E0313F /* 我的-设置_清除缓存非点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-设置_清除缓存非点击状态@2x.png"; sourceTree = "<group>"; };
+		991A31781C12E2DB00E0313F /* 我的-设置_版本更新-点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-设置_版本更新-点击状态@2x.png"; sourceTree = "<group>"; };
+		991A31791C12E2DB00E0313F /* 我的-设置_版本更新-非点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-设置_版本更新-非点击状态@2x.png"; sourceTree = "<group>"; };
+		991A317A1C12E2DB00E0313F /* 我的-设置_评价软件-点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-设置_评价软件-点击状态@2x.png"; sourceTree = "<group>"; };
+		991A317B1C12E2DB00E0313F /* 我的-设置_评价软件-非点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-设置_评价软件-非点击状态@2x.png"; sourceTree = "<group>"; };
+		991A317D1C12E2DB00E0313F /* 3H-注册_3H (2)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-注册_3H (2)@2x.png"; sourceTree = "<group>"; };
+		991A317E1C12E2DB00E0313F /* 3H-注册_3H@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-注册_3H@2x.png"; sourceTree = "<group>"; };
+		991A317F1C12E2DB00E0313F /* 3H-注册_全选@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-注册_全选@2x.png"; sourceTree = "<group>"; };
+		991A31801C12E2DB00E0313F /* 3H-注册_勾@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-注册_勾@2x.png"; sourceTree = "<group>"; };
+		991A31811C12E2DB00E0313F /* 3H-注册_立即注册@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-注册_立即注册@2x.png"; sourceTree = "<group>"; };
+		991A31821C12E2DB00E0313F /* 3H-注册_请输入手机号@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-注册_请输入手机号@2x.png"; sourceTree = "<group>"; };
+		991A31831C12E2DB00E0313F /* 3H-注册_选框@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-注册_选框@2x.png"; sourceTree = "<group>"; };
+		991A31841C12E2DB00E0313F /* 3H-注册_验证码@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-注册_验证码@2x.png"; sourceTree = "<group>"; };
+		991A31861C12E2DB00E0313F /* 3H-我的_保密@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-我的_保密@2x.png"; sourceTree = "<group>"; };
+		991A31871C12E2DB00E0313F /* 3H-我的_女@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-我的_女@2x.png"; sourceTree = "<group>"; };
+		991A31881C12E2DB00E0313F /* 3H-我的_我的健康档案-点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-我的_我的健康档案-点击状态@2x.png"; sourceTree = "<group>"; };
+		991A31891C12E2DB00E0313F /* 3H-我的_我的健康档案-非点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-我的_我的健康档案-非点击状态@2x.png"; sourceTree = "<group>"; };
+		991A318A1C12E2DB00E0313F /* 3H-我的_我的收藏-点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-我的_我的收藏-点击状态@2x.png"; sourceTree = "<group>"; };
+		991A318B1C12E2DB00E0313F /* 3H-我的_我的收藏-非点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-我的_我的收藏-非点击状态@2x.png"; sourceTree = "<group>"; };
+		991A318C1C12E2DB00E0313F /* 3H-我的_我的积分-点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-我的_我的积分-点击状态@2x.png"; sourceTree = "<group>"; };
+		991A318D1C12E2DB00E0313F /* 3H-我的_我的积分-非点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-我的_我的积分-非点击状态@2x.png"; sourceTree = "<group>"; };
+		991A318E1C12E2DB00E0313F /* 3H-我的_我的订单-点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-我的_我的订单-点击状态@2x.png"; sourceTree = "<group>"; };
+		991A318F1C12E2DB00E0313F /* 3H-我的_我的订单-非点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-我的_我的订单-非点击状态@2x.png"; sourceTree = "<group>"; };
+		991A31901C12E2DB00E0313F /* 3H-我的_我的钱包-点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-我的_我的钱包-点击状态@2x.png"; sourceTree = "<group>"; };
+		991A31911C12E2DB00E0313F /* 3H-我的_我的钱包-非点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-我的_我的钱包-非点击状态@2x.png"; sourceTree = "<group>"; };
+		991A31921C12E2DB00E0313F /* 3H-我的_我的预约-点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-我的_我的预约-点击状态@2x.png"; sourceTree = "<group>"; };
+		991A31931C12E2DC00E0313F /* 3H-我的_我的预约-非点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-我的_我的预约-非点击状态@2x.png"; sourceTree = "<group>"; };
+		991A31941C12E2DC00E0313F /* 3H-我的_李小光-男-背景@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-我的_李小光-男-背景@2x.png"; sourceTree = "<group>"; };
+		991A31951C12E2DC00E0313F /* 3H-我的_李小光-男@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-我的_李小光-男@2x.png"; sourceTree = "<group>"; };
+		991A31961C12E2DC00E0313F /* 3H-我的_李小光-背景@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-我的_李小光-背景@2x.png"; sourceTree = "<group>"; };
+		991A31971C12E2DC00E0313F /* 3H-我的_李小光头像@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-我的_李小光头像@2x.png"; sourceTree = "<group>"; };
+		991A31981C12E2DC00E0313F /* 3H-我的_设置-点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-我的_设置-点击状态@2x.png"; sourceTree = "<group>"; };
+		991A31991C12E2DC00E0313F /* 3H-我的_设置-非点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-我的_设置-非点击状态@2x.png"; sourceTree = "<group>"; };
+		991A319A1C12E2DC00E0313F /* 3H-消息-预约提醒-全选_删除@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-消息-预约提醒-全选_删除@2x.png"; sourceTree = "<group>"; };
+		991A319B1C12E2DC00E0313F /* 3H-消息_复查提醒@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-消息_复查提醒@2x.png"; sourceTree = "<group>"; };
+		991A319C1C12E2DC00E0313F /* 3H-消息_用药提醒@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-消息_用药提醒@2x.png"; sourceTree = "<group>"; };
+		991A319D1C12E2DC00E0313F /* 3H-消息_系统消息@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-消息_系统消息@2x.png"; sourceTree = "<group>"; };
+		991A319E1C12E2DC00E0313F /* 3H-消息_订单提醒@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-消息_订单提醒@2x.png"; sourceTree = "<group>"; };
+		991A319F1C12E2DC00E0313F /* 3H-消息_预约提醒@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-消息_预约提醒@2x.png"; sourceTree = "<group>"; };
+		991A31A11C12E2DC00E0313F /* QQ@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ@2x.png"; sourceTree = "<group>"; };
+		991A31A21C12E2DC00E0313F /* 微信@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微信@2x.png"; sourceTree = "<group>"; };
+		991A31A31C12E2DC00E0313F /* 新浪微博@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新浪微博@2x.png"; sourceTree = "<group>"; };
+		991A31A51C12E2DC00E0313F /* 3H-首页-天气@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页-天气@2x.png"; sourceTree = "<group>"; };
+		991A31A61C12E2DC00E0313F /* 3H-首页-心率-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页-心率-2@2x.png"; sourceTree = "<group>"; };
+		991A31A71C12E2DC00E0313F /* 3H-首页-心率@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页-心率@2x.png"; sourceTree = "<group>"; };
+		991A31A81C12E2DC00E0313F /* 3H-首页_小车@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页_小车@2x.png"; sourceTree = "<group>"; };
+		991A31A91C12E2DC00E0313F /* 3H-首页_心率0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页_心率0@2x.png"; sourceTree = "<group>"; };
+		991A31AB1C12E2DC00E0313F /* 3H-首页-健康资讯_29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页-健康资讯_29@2x.png"; sourceTree = "<group>"; };
+		991A31AC1C12E2DC00E0313F /* 3H-首页-监测仪2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页-监测仪2@2x.png"; sourceTree = "<group>"; };
+		991A31AD1C12E2DC00E0313F /* 3H-首页_监测仪1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页_监测仪1@2x.png"; sourceTree = "<group>"; };
+		991A31AE1C12E2DC00E0313F /* 3H-首页_监测仪3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页_监测仪3@2x.png"; sourceTree = "<group>"; };
+		991A31AF1C12E2DC00E0313F /* 首页-健康商城-商品详情-立即购买_图片@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康商城-商品详情-立即购买_图片@2x.png"; sourceTree = "<group>"; };
+		991A31B01C12E2DC00E0313F /* 首页-健康商城-商品详情-立即购买_填写收货地址@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康商城-商品详情-立即购买_填写收货地址@2x.png"; sourceTree = "<group>"; };
+		991A31B11C12E2DC00E0313F /* 首页-健康商城-商品详情-立即购买_支付-点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康商城-商品详情-立即购买_支付-点击状态@2x.png"; sourceTree = "<group>"; };
+		991A31B21C12E2DC00E0313F /* 首页-健康商城-商品详情-立即购买_点击-非点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康商城-商品详情-立即购买_点击-非点击状态@2x.png"; sourceTree = "<group>"; };
+		991A31B31C12E2DC00E0313F /* 首页-健康商城-商品详情-立即购买_确认并支付@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康商城-商品详情-立即购买_确认并支付@2x.png"; sourceTree = "<group>"; };
+		991A31B41C12E2DC00E0313F /* 首页-健康商城-商品详情_Banner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康商城-商品详情_Banner@2x.png"; sourceTree = "<group>"; };
+		991A31B51C12E2DC00E0313F /* 首页-健康商城-商品详情_加入购物车@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康商城-商品详情_加入购物车@2x.png"; sourceTree = "<group>"; };
+		991A31B61C12E2DC00E0313F /* 首页-健康商城-商品详情_商品介绍@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康商城-商品详情_商品介绍@2x.png"; sourceTree = "<group>"; };
+		991A31B71C12E2DC00E0313F /* 首页-健康商城-商品详情_头像1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康商城-商品详情_头像1@2x.png"; sourceTree = "<group>"; };
+		991A31B81C12E2DC00E0313F /* 首页-健康商城-商品详情_头像2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康商城-商品详情_头像2@2x.png"; sourceTree = "<group>"; };
+		991A31B91C12E2DC00E0313F /* 首页-健康商城-商品详情_收藏@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康商城-商品详情_收藏@2x.png"; sourceTree = "<group>"; };
+		991A31BA1C12E2DC00E0313F /* 首页-健康商城-商品详情_数量+@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康商城-商品详情_数量+@2x.png"; sourceTree = "<group>"; };
+		991A31BB1C12E2DC00E0313F /* 首页-健康商城-商品详情_数量-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康商城-商品详情_数量-@2x.png"; sourceTree = "<group>"; };
+		991A31BC1C12E2DC00E0313F /* 首页-健康商城-商品详情_立即购买@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康商城-商品详情_立即购买@2x.png"; sourceTree = "<group>"; };
+		991A31BD1C12E2DC00E0313F /* 首页-健康商城-商品详情_评论@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康商城-商品详情_评论@2x.png"; sourceTree = "<group>"; };
+		991A31BE1C12E2DC00E0313F /* 首页-健康商城-商品详情_购物车@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康商城-商品详情_购物车@2x.png"; sourceTree = "<group>"; };
+		991A31BF1C12E2DC00E0313F /* 首页-健康商城_Banner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康商城_Banner@2x.png"; sourceTree = "<group>"; };
+		991A31C01C12E2DC00E0313F /* 首页-健康商城_监测仪1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康商城_监测仪1@2x.png"; sourceTree = "<group>"; };
+		991A31C11C12E2DC00E0313F /* 首页-健康商城_监测仪2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康商城_监测仪2@2x.png"; sourceTree = "<group>"; };
+		991A31C21C12E2DC00E0313F /* 首页-健康商城_监测仪3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康商城_监测仪3@2x.png"; sourceTree = "<group>"; };
+		991A31C31C12E2DC00E0313F /* 首页-健康商城_监测仪4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康商城_监测仪4@2x.png"; sourceTree = "<group>"; };
+		991A31C51C12E2DC00E0313F /* 3H-首页_健康日程 (2)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页_健康日程 (2)@2x.png"; sourceTree = "<group>"; };
+		991A31C61C12E2DC00E0313F /* 3H-首页_健康日程@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页_健康日程@2x.png"; sourceTree = "<group>"; };
+		991A31C81C12E2DC00E0313F /* 3H-首页_健康管理 (2)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页_健康管理 (2)@2x.png"; sourceTree = "<group>"; };
+		991A31C91C12E2DC00E0313F /* 3H-首页_健康管理@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页_健康管理@2x.png"; sourceTree = "<group>"; };
+		991A31CB1C12E2DC00E0313F /* 3H-首页_新药研发@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页_新药研发@2x.png"; sourceTree = "<group>"; };
+		991A31CC1C12E2DC00E0313F /* 3H-首页_浅谈国际@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页_浅谈国际@2x.png"; sourceTree = "<group>"; };
+		991A31CD1C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论-发表评论_图片@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康资讯-新闻资讯-评论-发表评论_图片@2x.png"; sourceTree = "<group>"; };
+		991A31CE1C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论2_发表@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康资讯-新闻资讯-评论2_发表@2x.png"; sourceTree = "<group>"; };
+		991A31CF1C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论2_添加@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康资讯-新闻资讯-评论2_添加@2x.png"; sourceTree = "<group>"; };
+		991A31D01C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论2_表情@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康资讯-新闻资讯-评论2_表情@2x.png"; sourceTree = "<group>"; };
+		991A31D11C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论2_输入框@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康资讯-新闻资讯-评论2_输入框@2x.png"; sourceTree = "<group>"; };
+		991A31D21C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康资讯-新闻资讯-评论@2x.png"; sourceTree = "<group>"; };
+		991A31D31C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论_分享@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康资讯-新闻资讯-评论_分享@2x.png"; sourceTree = "<group>"; };
+		991A31D41C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论_输入框@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康资讯-新闻资讯-评论_输入框@2x.png"; sourceTree = "<group>"; };
+		991A31D51C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论_铅笔@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康资讯-新闻资讯-评论_铅笔@2x.png"; sourceTree = "<group>"; };
+		991A31D61C12E2DC00E0313F /* 首页-健康资讯_Banner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康资讯_Banner@2x.png"; sourceTree = "<group>"; };
+		991A31D71C12E2DC00E0313F /* 首页-健康资讯_图1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康资讯_图1@2x.png"; sourceTree = "<group>"; };
+		991A31D81C12E2DC00E0313F /* 首页-健康资讯_图2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康资讯_图2@2x.png"; sourceTree = "<group>"; };
+		991A31D91C12E2DC00E0313F /* 首页-健康资讯_图3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康资讯_图3@2x.png"; sourceTree = "<group>"; };
+		991A31DA1C12E2DC00E0313F /* 首页-健康资讯_图4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康资讯_图4@2x.png"; sourceTree = "<group>"; };
+		991A31DB1C12E2DC00E0313F /* 首页-健康资讯_搜索@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康资讯_搜索@2x.png"; sourceTree = "<group>"; };
+		991A31DC1C12E2DC00E0313F /* 首页-健康资讯_时间@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康资讯_时间@2x.png"; sourceTree = "<group>"; };
+		991A31DD1C12E2DC00E0313F /* 首页-健康资讯_返回@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-健康资讯_返回@2x.png"; sourceTree = "<group>"; };
+		991A31DE1C12E2DC00E0313F /* 首页-新药研发_图片@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-新药研发_图片@2x.png"; sourceTree = "<group>"; };
+		991A31DF1C12E2DC00E0313F /* 首页-新药研发_更多@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-新药研发_更多@2x.png"; sourceTree = "<group>"; };
+		991A31E01C12E2DC00E0313F /* 首页-新药研发_点赞@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-新药研发_点赞@2x.png"; sourceTree = "<group>"; };
+		991A31E11C12E2DC00E0313F /* 首页-新药研发_评论@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-新药研发_评论@2x.png"; sourceTree = "<group>"; };
+		991A31E31C12E2DC00E0313F /* 3H-首页_健康-点击状态 (2)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页_健康-点击状态 (2)@2x.png"; sourceTree = "<group>"; };
+		991A31E41C12E2DC00E0313F /* 3H-首页_健康-点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页_健康-点击状态@2x.png"; sourceTree = "<group>"; };
+		991A31E51C12E2DC00E0313F /* 3H-首页_健康-非点击状态 (2)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页_健康-非点击状态 (2)@2x.png"; sourceTree = "<group>"; };
+		991A31E61C12E2DC00E0313F /* 3H-首页_健康-非点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页_健康-非点击状态@2x.png"; sourceTree = "<group>"; };
+		991A31E71C12E2DC00E0313F /* 3H-首页_我的-点击状态 (2)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页_我的-点击状态 (2)@2x.png"; sourceTree = "<group>"; };
+		991A31E81C12E2DC00E0313F /* 3H-首页_我的-点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页_我的-点击状态@2x.png"; sourceTree = "<group>"; };
+		991A31E91C12E2DC00E0313F /* 3H-首页_我的-非点击状态 (2)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页_我的-非点击状态 (2)@2x.png"; sourceTree = "<group>"; };
+		991A31EA1C12E2DC00E0313F /* 3H-首页_我的-非点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页_我的-非点击状态@2x.png"; sourceTree = "<group>"; };
+		991A31EB1C12E2DC00E0313F /* 3H-首页_消息-点击状态 (2)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页_消息-点击状态 (2)@2x.png"; sourceTree = "<group>"; };
+		991A31EC1C12E2DC00E0313F /* 3H-首页_消息-点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页_消息-点击状态@2x.png"; sourceTree = "<group>"; };
+		991A31ED1C12E2DC00E0313F /* 3H-首页_消息-非点击状态 (2)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页_消息-非点击状态 (2)@2x.png"; sourceTree = "<group>"; };
+		991A31EE1C12E2DC00E0313F /* 3H-首页_消息-非点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页_消息-非点击状态@2x.png"; sourceTree = "<group>"; };
+		991A31EF1C12E2DC00E0313F /* 3H-首页_首页-点击状态 (2)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页_首页-点击状态 (2)@2x.png"; sourceTree = "<group>"; };
+		991A31F01C12E2DC00E0313F /* 3H-首页_首页-点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页_首页-点击状态@2x.png"; sourceTree = "<group>"; };
+		991A31F11C12E2DC00E0313F /* 3H-首页_首页-非点击状态 (2)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页_首页-非点击状态 (2)@2x.png"; sourceTree = "<group>"; };
+		991A31F21C12E2DC00E0313F /* 3H-首页_首页-非点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页_首页-非点击状态@2x.png"; sourceTree = "<group>"; };
+		991A31F41C12E2DC00E0313F /* 3H-首页_我要咨询 (2)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页_我要咨询 (2)@2x.png"; sourceTree = "<group>"; };
+		991A31F51C12E2DC00E0313F /* 3H-首页_我要咨询@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页_我要咨询@2x.png"; sourceTree = "<group>"; };
+		991A31F61C12E2DC00E0313F /* 首页-我要咨询-医生列表_搜索图标@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-我要咨询-医生列表_搜索图标@2x.png"; sourceTree = "<group>"; };
+		991A31F71C12E2DC00E0313F /* 首页-我要咨询-在线咨询-2_拍照@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-我要咨询-在线咨询-2_拍照@2x.png"; sourceTree = "<group>"; };
+		991A31F81C12E2DC00E0313F /* 首页-我要咨询-在线咨询-医生列表-搜索_取消@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-我要咨询-在线咨询-医生列表-搜索_取消@2x.png"; sourceTree = "<group>"; };
+		991A31F91C12E2DC00E0313F /* 首页-我要咨询-在线咨询-医生列表-搜索_搜索框@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-我要咨询-在线咨询-医生列表-搜索_搜索框@2x.png"; sourceTree = "<group>"; };
+		991A31FA1C12E2DC00E0313F /* 首页-我要咨询-在线咨询_3H头像@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-我要咨询-在线咨询_3H头像@2x.png"; sourceTree = "<group>"; };
+		991A31FB1C12E2DC00E0313F /* 首页-我要咨询-在线咨询_对话框1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-我要咨询-在线咨询_对话框1@2x.png"; sourceTree = "<group>"; };
+		991A31FC1C12E2DC00E0313F /* 首页-我要咨询-在线咨询_对话框2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-我要咨询-在线咨询_对话框2@2x.png"; sourceTree = "<group>"; };
+		991A31FD1C12E2DC00E0313F /* 首页-我要咨询-在线咨询_更多@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-我要咨询-在线咨询_更多@2x.png"; sourceTree = "<group>"; };
+		991A31FE1C12E2DC00E0313F /* 首页-我要咨询-在线咨询_表情@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-我要咨询-在线咨询_表情@2x.png"; sourceTree = "<group>"; };
+		991A31FF1C12E2DC00E0313F /* 首页-我要咨询-在线咨询_语音@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-我要咨询-在线咨询_语音@2x.png"; sourceTree = "<group>"; };
+		991A32001C12E2DC00E0313F /* 首页-我要咨询-在线咨询_输入框@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-我要咨询-在线咨询_输入框@2x.png"; sourceTree = "<group>"; };
+		991A32011C12E2DC00E0313F /* 首页-我要咨询-电话咨询_信息框@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-我要咨询-电话咨询_信息框@2x.png"; sourceTree = "<group>"; };
+		991A32021C12E2DC00E0313F /* 首页-我要咨询-电话咨询_外框@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-我要咨询-电话咨询_外框@2x.png"; sourceTree = "<group>"; };
+		991A32031C12E2DC00E0313F /* 首页-我要咨询-电话咨询_描述信息@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-我要咨询-电话咨询_描述信息@2x.png"; sourceTree = "<group>"; };
+		991A32041C12E2DC00E0313F /* 首页-我要咨询_医生列表图标@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-我要咨询_医生列表图标@2x.png"; sourceTree = "<group>"; };
+		991A32051C12E2DC00E0313F /* 首页-我要咨询_在线咨询@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-我要咨询_在线咨询@2x.png"; sourceTree = "<group>"; };
+		991A32061C12E2DC00E0313F /* 首页-我要咨询_电话咨询@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-我要咨询_电话咨询@2x.png"; sourceTree = "<group>"; };
+		991A32081C12E2DC00E0313F /* 3H-首页_我要预约 (2)@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页_我要预约 (2)@2x.png"; sourceTree = "<group>"; };
+		991A32091C12E2DC00E0313F /* 3H-首页_我要预约@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3H-首页_我要预约@2x.png"; sourceTree = "<group>"; };
+		991A320A1C12E2DC00E0313F /* 首页-我要预约-预约住院_留言框@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-我要预约-预约住院_留言框@2x.png"; sourceTree = "<group>"; };
+		991A320B1C12E2DC00E0313F /* 首页-我要预约-预约住院_预约留言@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-我要预约-预约住院_预约留言@2x.png"; sourceTree = "<group>"; };
+		991A320C1C12E2DC00E0313F /* 首页-我要预约-预约挂号-2_挂号费用3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-我要预约-预约挂号-2_挂号费用3@2x.png"; sourceTree = "<group>"; };
+		991A320D1C12E2DC00E0313F /* 首页-我要预约-预约挂号-2_日期-未选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-我要预约-预约挂号-2_日期-未选中@2x.png"; sourceTree = "<group>"; };
+		991A320E1C12E2DC00E0313F /* 首页-我要预约-预约挂号-2_日期-选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-我要预约-预约挂号-2_日期-选中@2x.png"; sourceTree = "<group>"; };
+		991A320F1C12E2DC00E0313F /* 首页-我要预约-预约挂号-2_时间-点击状态@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-我要预约-预约挂号-2_时间-点击状态@2x.png"; sourceTree = "<group>"; };
+		991A32101C12E2DC00E0313F /* 首页-我要预约-预约挂号-2_预约时间@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-我要预约-预约挂号-2_预约时间@2x.png"; sourceTree = "<group>"; };
+		991A32111C12E2DC00E0313F /* 首页-我要预约-预约挂号2-预约成功_预约成功@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-我要预约-预约挂号2-预约成功_预约成功@2x.png"; sourceTree = "<group>"; };
+		991A32121C12E2DC00E0313F /* 首页-我要预约-预约挂号_头像@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-我要预约-预约挂号_头像@2x.png"; sourceTree = "<group>"; };
+		991A32131C12E2DC00E0313F /* 首页-我要预约-预约挂号_擅长@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-我要预约-预约挂号_擅长@2x.png"; sourceTree = "<group>"; };
+		991A32141C12E2DC00E0313F /* 首页-我要预约-预约挂号_简介@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-我要预约-预约挂号_简介@2x.png"; sourceTree = "<group>"; };
+		991A32151C12E2DC00E0313F /* 首页-我要预约-预约挂号_背景@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-我要预约-预约挂号_背景@2x.png"; sourceTree = "<group>"; };
+		991A32161C12E2DC00E0313F /* 首页-我要预约_预约专家电话咨询@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-我要预约_预约专家电话咨询@2x.png"; sourceTree = "<group>"; };
+		991A32171C12E2DC00E0313F /* 首页-我要预约_预约住院@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-我要预约_预约住院@2x.png"; sourceTree = "<group>"; };
+		991A32181C12E2DC00E0313F /* 首页-我要预约_预约挂号@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-我要预约_预约挂号@2x.png"; sourceTree = "<group>"; };
+		991A32E61C12E39400E0313F /* arrowImg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrowImg@2x.png"; sourceTree = "<group>"; };
+		991A32EC1C12E5C100E0313F /* ManageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManageViewController.h; sourceTree = "<group>"; };
+		991A32ED1C12E5C100E0313F /* ManageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManageViewController.m; sourceTree = "<group>"; };
+		991A32EF1C12E5E900E0313F /* AppointViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppointViewController.h; sourceTree = "<group>"; };
+		991A32F01C12E5E900E0313F /* AppointViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppointViewController.m; sourceTree = "<group>"; };
+		991A32F21C12E60400E0313F /* ManageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManageTableViewCell.h; sourceTree = "<group>"; };
+		991A32F31C12E60400E0313F /* ManageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManageTableViewCell.m; sourceTree = "<group>"; };
+		991A32F51C12E61500E0313F /* AppointTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppointTableViewCell.h; sourceTree = "<group>"; };
+		991A32F61C12E61500E0313F /* AppointTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppointTableViewCell.m; sourceTree = "<group>"; };
+		991A32F81C12E7E400E0313F /* backbtnimg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backbtnimg@2x.png"; sourceTree = "<group>"; };
+		991A32FA1C12ED7100E0313F /* HealthTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthTableViewCell.h; sourceTree = "<group>"; };
+		991A32FB1C12ED7100E0313F /* HealthTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthTableViewCell.m; sourceTree = "<group>"; };
+		991A32FD1C12EFD700E0313F /* MessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTableViewCell.h; sourceTree = "<group>"; };
+		991A32FE1C12EFD700E0313F /* MessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewCell.m; sourceTree = "<group>"; };
+		991A33001C12F5BF00E0313F /* MineTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineTableViewCell.h; sourceTree = "<group>"; };
+		991A33011C12F5BF00E0313F /* MineTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTableViewCell.m; sourceTree = "<group>"; };
+		991A33031C12F5D500E0313F /* MineHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineHeadView.h; sourceTree = "<group>"; };
+		991A33041C12F5D500E0313F /* MineHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineHeadView.m; sourceTree = "<group>"; };
+		991A33061C12FFDA00E0313F /* PersonalHeadTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalHeadTableViewCell.h; sourceTree = "<group>"; };
+		991A33071C12FFDA00E0313F /* PersonalHeadTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalHeadTableViewCell.m; sourceTree = "<group>"; };
+		991A33081C12FFDA00E0313F /* PersonalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalTableViewCell.h; sourceTree = "<group>"; };
+		991A33091C12FFDA00E0313F /* PersonalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalTableViewCell.m; sourceTree = "<group>"; };
+		991A330A1C12FFDA00E0313F /* SetUpTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetUpTableViewCell.h; sourceTree = "<group>"; };
+		991A330B1C12FFDA00E0313F /* SetUpTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetUpTableViewCell.m; sourceTree = "<group>"; };
+		991A33101C12FFE400E0313F /* PersonalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalViewController.h; sourceTree = "<group>"; };
+		991A33111C12FFE400E0313F /* PersonalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalViewController.m; sourceTree = "<group>"; };
+		991A33131C12FFE400E0313F /* SetUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetUpViewController.h; sourceTree = "<group>"; };
+		991A33141C12FFE400E0313F /* SetUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetUpViewController.m; sourceTree = "<group>"; };
+		9936695E1C132A8E00B3E1C7 /* ShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopViewController.h; sourceTree = "<group>"; };
+		9936695F1C132A8E00B3E1C7 /* ShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopViewController.m; sourceTree = "<group>"; };
+		993669621C132C6800B3E1C7 /* ConsultingDynamicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsultingDynamicViewController.h; sourceTree = "<group>"; };
+		993669631C132C6800B3E1C7 /* ConsultingDynamicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsultingDynamicViewController.m; sourceTree = "<group>"; };
+		993669641C132C6800B3E1C7 /* DynamicDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicDetailViewController.h; sourceTree = "<group>"; };
+		993669651C132C6800B3E1C7 /* DynamicDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicDetailViewController.m; sourceTree = "<group>"; };
+		993669681C132C7600B3E1C7 /* ConsultingDynamicHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsultingDynamicHeadView.h; sourceTree = "<group>"; };
+		993669691C132C7600B3E1C7 /* ConsultingDynamicHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsultingDynamicHeadView.m; sourceTree = "<group>"; };
+		9936696A1C132C7600B3E1C7 /* ConsultingDynamicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsultingDynamicTableViewCell.h; sourceTree = "<group>"; };
+		9936696B1C132C7600B3E1C7 /* ConsultingDynamicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsultingDynamicTableViewCell.m; sourceTree = "<group>"; };
+		9936696C1C132C7600B3E1C7 /* DynamicDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicDetailTableViewCell.h; sourceTree = "<group>"; };
+		9936696D1C132C7600B3E1C7 /* DynamicDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicDetailTableViewCell.m; sourceTree = "<group>"; };
+		9936696E1C132C7600B3E1C7 /* DynamicDetailToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicDetailToolView.h; sourceTree = "<group>"; };
+		9936696F1C132C7600B3E1C7 /* DynamicDetailToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicDetailToolView.m; sourceTree = "<group>"; };
+		993669741C132D5F00B3E1C7 /* ShopTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopTableViewCell.h; sourceTree = "<group>"; };
+		993669751C132D5F00B3E1C7 /* ShopTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopTableViewCell.m; sourceTree = "<group>"; };
+		993669771C132DCB00B3E1C7 /* ShopCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCustomView.h; sourceTree = "<group>"; };
+		993669781C132DCB00B3E1C7 /* ShopCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopCustomView.m; sourceTree = "<group>"; };
+		9936697A1C13331400B3E1C7 /* ShopDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopDetailViewController.h; sourceTree = "<group>"; };
+		9936697B1C13331400B3E1C7 /* ShopDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopDetailViewController.m; sourceTree = "<group>"; };
+		9936697D1C13335D00B3E1C7 /* ShopDetailNameTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopDetailNameTableViewCell.h; sourceTree = "<group>"; };
+		9936697E1C13335D00B3E1C7 /* ShopDetailNameTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopDetailNameTableViewCell.m; sourceTree = "<group>"; };
+		993669801C13336F00B3E1C7 /* ShopDetailNumTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopDetailNumTableViewCell.h; sourceTree = "<group>"; };
+		993669811C13336F00B3E1C7 /* ShopDetailNumTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopDetailNumTableViewCell.m; sourceTree = "<group>"; };
+		993669831C13339200B3E1C7 /* ShopDetailDescTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopDetailDescTableViewCell.h; sourceTree = "<group>"; };
+		993669841C13339200B3E1C7 /* ShopDetailDescTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopDetailDescTableViewCell.m; sourceTree = "<group>"; };
+		993669861C1333ED00B3E1C7 /* ShopDetailTitleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopDetailTitleTableViewCell.h; sourceTree = "<group>"; };
+		993669871C1333ED00B3E1C7 /* ShopDetailTitleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopDetailTitleTableViewCell.m; sourceTree = "<group>"; };
+		993669891C13340D00B3E1C7 /* ShopDetailCommentsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopDetailCommentsTableViewCell.h; sourceTree = "<group>"; };
+		9936698A1C13340D00B3E1C7 /* ShopDetailCommentsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopDetailCommentsTableViewCell.m; sourceTree = "<group>"; };
+		9936698C1C13343F00B3E1C7 /* ShopDetailToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopDetailToolView.h; sourceTree = "<group>"; };
+		9936698D1C13343F00B3E1C7 /* ShopDetailToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopDetailToolView.m; sourceTree = "<group>"; };
 		99DA3EAE1C0BE4CF00573D4C /* 3HPatientClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3HPatientClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99DA3EB21C0BE4CF00573D4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99DA3EB31C0BE4CF00573D4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -402,6 +906,428 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		991A313A1C12E2DB00E0313F /* 3H患者端切图 */ = {
+			isa = PBXGroup;
+			children = (
+				991A313B1C12E2DB00E0313F /* 健康 */,
+				991A314F1C12E2DB00E0313F /* 我的 */,
+				991A317C1C12E2DB00E0313F /* 注册 */,
+				991A31851C12E2DB00E0313F /* 消息 */,
+				991A31A01C12E2DC00E0313F /* 登录 */,
+				991A31A41C12E2DC00E0313F /* 首页 */,
+			);
+			path = "3H患者端切图";
+			sourceTree = "<group>";
+		};
+		991A313B1C12E2DB00E0313F /* 健康 */ = {
+			isa = PBXGroup;
+			children = (
+				991A313C1C12E2DB00E0313F /* 健康日程 */,
+				991A31421C12E2DB00E0313F /* 健康管理 */,
+				991A314B1C12E2DB00E0313F /* 咨询专家 */,
+				991A314D1C12E2DB00E0313F /* 预约 */,
+			);
+			path = "健康";
+			sourceTree = "<group>";
+		};
+		991A313C1C12E2DB00E0313F /* 健康日程 */ = {
+			isa = PBXGroup;
+			children = (
+				991A313D1C12E2DB00E0313F /* 3H-健康_健康日程@2x.png */,
+				991A313E1C12E2DB00E0313F /* 首页-健康日程_复查提醒@2x.png */,
+				991A313F1C12E2DB00E0313F /* 首页-健康日程_日期-点击状态@2x.png */,
+				991A31401C12E2DB00E0313F /* 首页-健康日程_检查提醒@2x.png */,
+				991A31411C12E2DB00E0313F /* 首页-健康日程_用药提醒@2x.png */,
+			);
+			path = "健康日程";
+			sourceTree = "<group>";
+		};
+		991A31421C12E2DB00E0313F /* 健康管理 */ = {
+			isa = PBXGroup;
+			children = (
+				991A31431C12E2DB00E0313F /* 3H-健康_健康管理@2x.png */,
+				991A31441C12E2DB00E0313F /* 首页-健康管理-主要诊断-主要诊断搜索_搜索@2x.png */,
+				991A31451C12E2DB00E0313F /* 首页-健康管理-主要诊断-主要诊断搜索_搜索框@2x.png */,
+				991A31461C12E2DB00E0313F /* 首页-健康管理_主要诊断@2x.png */,
+				991A31471C12E2DB00E0313F /* 首页-健康管理_复查指南@2x.png */,
+				991A31481C12E2DB00E0313F /* 首页-健康管理_检查及检查数据@2x.png */,
+				991A31491C12E2DB00E0313F /* 首页-健康管理_用药指南@2x.png */,
+				991A314A1C12E2DB00E0313F /* 首页-健康管理_简要病史@2x.png */,
+			);
+			path = "健康管理";
+			sourceTree = "<group>";
+		};
+		991A314B1C12E2DB00E0313F /* 咨询专家 */ = {
+			isa = PBXGroup;
+			children = (
+				991A314C1C12E2DB00E0313F /* 3H-健康_咨询专家@2x.png */,
+			);
+			path = "咨询专家";
+			sourceTree = "<group>";
+		};
+		991A314D1C12E2DB00E0313F /* 预约 */ = {
+			isa = PBXGroup;
+			children = (
+				991A314E1C12E2DB00E0313F /* 3H-健康_预约@2x.png */,
+			);
+			path = "预约";
+			sourceTree = "<group>";
+		};
+		991A314F1C12E2DB00E0313F /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				991A31501C12E2DB00E0313F /* 我的-个人资料_病人头像@2x.png */,
+				991A31511C12E2DB00E0313F /* 我的-我的收藏_图片@2x.png */,
+				991A31521C12E2DB00E0313F /* 我的-我的收藏_心@2x.png */,
+				991A31531C12E2DB00E0313F /* 我的-我的收藏_收藏-未点击状态@2x.png */,
+				991A31541C12E2DB00E0313F /* 我的-我的收藏_收藏-点击状态@2x.png */,
+				991A31551C12E2DB00E0313F /* 我的-我的订单_九康科技LOGO@2x.png */,
+				991A31561C12E2DB00E0313F /* 我的-我的订单_删除订单@2x.png */,
+				991A31571C12E2DB00E0313F /* 我的-我的订单_图片@2x.png */,
+				991A31581C12E2DB00E0313F /* 我的-我的订单_评价订单@2x.png */,
+				991A31591C12E2DB00E0313F /* 我的-我的钱包_充值-未点击状态@2x.png */,
+				991A315A1C12E2DB00E0313F /* 我的-我的钱包_充值-点击状态@2x.png */,
+				991A315B1C12E2DB00E0313F /* 我的-我的钱包_订单记录-未点击状态@2x.png */,
+				991A315C1C12E2DB00E0313F /* 我的-我的钱包_订单记录-点击状态@2x.png */,
+				991A315D1C12E2DB00E0313F /* 我的-我的钱包_账户余额@2x.png */,
+				991A315E1C12E2DB00E0313F /* 我的-我的预约_上@2x.png */,
+				991A315F1C12E2DB00E0313F /* 我的-我的预约_下@2x.png */,
+				991A31601C12E2DB00E0313F /* 我的-我的预约_医生头像1@2x.png */,
+				991A31611C12E2DB00E0313F /* 我的-我的预约_医生头像2@2x.png */,
+				991A31621C12E2DB00E0313F /* 我的-我的预约_实付@2x.png */,
+				991A31631C12E2DB00E0313F /* 我的-我的预约_未评价@2x.png */,
+				991A31641C12E2DB00E0313F /* 我的-我的预约_未评价背景@2x.png */,
+				991A31651C12E2DB00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1-1@2x.png */,
+				991A31661C12E2DB00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1-2@2x.png */,
+				991A31671C12E2DB00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1-3@2x.png */,
+				991A31681C12E2DB00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1-4@2x.png */,
+				991A31691C12E2DB00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1-5@2x.png */,
+				991A316A1C12E2DB00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1-6@2x.png */,
+				991A316B1C12E2DB00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1@2x.png */,
+				991A316C1C12E2DB00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像2@2x.png */,
+				991A316D1C12E2DB00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像3@2x.png */,
+				991A316E1C12E2DB00E0313F /* 我的-设置-评价软件_输入信息@2x.png */,
+				991A316F1C12E2DB00E0313F /* 我的-设置_关于-点击状态@2x.png */,
+				991A31701C12E2DB00E0313F /* 我的-设置_关于-非点击状态@2x.png */,
+				991A31711C12E2DB00E0313F /* 我的-设置_意见反馈-点击状态@2x.png */,
+				991A31721C12E2DB00E0313F /* 我的-设置_意见反馈-非点击状态@2x.png */,
+				991A31731C12E2DB00E0313F /* 我的-设置_更多-非点击状态 (2)@2x.png */,
+				991A31741C12E2DB00E0313F /* 我的-设置_更多-非点击状态@2x.png */,
+				991A31751C12E2DB00E0313F /* 我的-设置_更多点击状态@2x.png */,
+				991A31761C12E2DB00E0313F /* 我的-设置_清除缓存-点击状态@2x.png */,
+				991A31771C12E2DB00E0313F /* 我的-设置_清除缓存非点击状态@2x.png */,
+				991A31781C12E2DB00E0313F /* 我的-设置_版本更新-点击状态@2x.png */,
+				991A31791C12E2DB00E0313F /* 我的-设置_版本更新-非点击状态@2x.png */,
+				991A317A1C12E2DB00E0313F /* 我的-设置_评价软件-点击状态@2x.png */,
+				991A317B1C12E2DB00E0313F /* 我的-设置_评价软件-非点击状态@2x.png */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		991A317C1C12E2DB00E0313F /* 注册 */ = {
+			isa = PBXGroup;
+			children = (
+				991A317D1C12E2DB00E0313F /* 3H-注册_3H (2)@2x.png */,
+				991A317E1C12E2DB00E0313F /* 3H-注册_3H@2x.png */,
+				991A317F1C12E2DB00E0313F /* 3H-注册_全选@2x.png */,
+				991A31801C12E2DB00E0313F /* 3H-注册_勾@2x.png */,
+				991A31811C12E2DB00E0313F /* 3H-注册_立即注册@2x.png */,
+				991A31821C12E2DB00E0313F /* 3H-注册_请输入手机号@2x.png */,
+				991A31831C12E2DB00E0313F /* 3H-注册_选框@2x.png */,
+				991A31841C12E2DB00E0313F /* 3H-注册_验证码@2x.png */,
+			);
+			path = "注册";
+			sourceTree = "<group>";
+		};
+		991A31851C12E2DB00E0313F /* 消息 */ = {
+			isa = PBXGroup;
+			children = (
+				991A31861C12E2DB00E0313F /* 3H-我的_保密@2x.png */,
+				991A31871C12E2DB00E0313F /* 3H-我的_女@2x.png */,
+				991A31881C12E2DB00E0313F /* 3H-我的_我的健康档案-点击状态@2x.png */,
+				991A31891C12E2DB00E0313F /* 3H-我的_我的健康档案-非点击状态@2x.png */,
+				991A318A1C12E2DB00E0313F /* 3H-我的_我的收藏-点击状态@2x.png */,
+				991A318B1C12E2DB00E0313F /* 3H-我的_我的收藏-非点击状态@2x.png */,
+				991A318C1C12E2DB00E0313F /* 3H-我的_我的积分-点击状态@2x.png */,
+				991A318D1C12E2DB00E0313F /* 3H-我的_我的积分-非点击状态@2x.png */,
+				991A318E1C12E2DB00E0313F /* 3H-我的_我的订单-点击状态@2x.png */,
+				991A318F1C12E2DB00E0313F /* 3H-我的_我的订单-非点击状态@2x.png */,
+				991A31901C12E2DB00E0313F /* 3H-我的_我的钱包-点击状态@2x.png */,
+				991A31911C12E2DB00E0313F /* 3H-我的_我的钱包-非点击状态@2x.png */,
+				991A31921C12E2DB00E0313F /* 3H-我的_我的预约-点击状态@2x.png */,
+				991A31931C12E2DC00E0313F /* 3H-我的_我的预约-非点击状态@2x.png */,
+				991A31941C12E2DC00E0313F /* 3H-我的_李小光-男-背景@2x.png */,
+				991A31951C12E2DC00E0313F /* 3H-我的_李小光-男@2x.png */,
+				991A31961C12E2DC00E0313F /* 3H-我的_李小光-背景@2x.png */,
+				991A31971C12E2DC00E0313F /* 3H-我的_李小光头像@2x.png */,
+				991A31981C12E2DC00E0313F /* 3H-我的_设置-点击状态@2x.png */,
+				991A31991C12E2DC00E0313F /* 3H-我的_设置-非点击状态@2x.png */,
+				991A319A1C12E2DC00E0313F /* 3H-消息-预约提醒-全选_删除@2x.png */,
+				991A319B1C12E2DC00E0313F /* 3H-消息_复查提醒@2x.png */,
+				991A319C1C12E2DC00E0313F /* 3H-消息_用药提醒@2x.png */,
+				991A319D1C12E2DC00E0313F /* 3H-消息_系统消息@2x.png */,
+				991A319E1C12E2DC00E0313F /* 3H-消息_订单提醒@2x.png */,
+				991A319F1C12E2DC00E0313F /* 3H-消息_预约提醒@2x.png */,
+			);
+			path = "消息";
+			sourceTree = "<group>";
+		};
+		991A31A01C12E2DC00E0313F /* 登录 */ = {
+			isa = PBXGroup;
+			children = (
+				991A31A11C12E2DC00E0313F /* QQ@2x.png */,
+				991A31A21C12E2DC00E0313F /* 微信@2x.png */,
+				991A31A31C12E2DC00E0313F /* 新浪微博@2x.png */,
+			);
+			path = "登录";
+			sourceTree = "<group>";
+		};
+		991A31A41C12E2DC00E0313F /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				991A32F81C12E7E400E0313F /* backbtnimg@2x.png */,
+				991A32E61C12E39400E0313F /* arrowImg@2x.png */,
+				991A31A51C12E2DC00E0313F /* 3H-首页-天气@2x.png */,
+				991A31A61C12E2DC00E0313F /* 3H-首页-心率-2@2x.png */,
+				991A31A71C12E2DC00E0313F /* 3H-首页-心率@2x.png */,
+				991A31A81C12E2DC00E0313F /* 3H-首页_小车@2x.png */,
+				991A31A91C12E2DC00E0313F /* 3H-首页_心率0@2x.png */,
+				991A31AA1C12E2DC00E0313F /* 健康商城 */,
+				991A31C41C12E2DC00E0313F /* 健康日程 */,
+				991A31C71C12E2DC00E0313F /* 健康管理 */,
+				991A31CA1C12E2DC00E0313F /* 健康资讯 */,
+				991A31E21C12E2DC00E0313F /* 底部图标 */,
+				991A31F31C12E2DC00E0313F /* 我要咨询 */,
+				991A32071C12E2DC00E0313F /* 我要预约 */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		991A31AA1C12E2DC00E0313F /* 健康商城 */ = {
+			isa = PBXGroup;
+			children = (
+				991A31AB1C12E2DC00E0313F /* 3H-首页-健康资讯_29@2x.png */,
+				991A31AC1C12E2DC00E0313F /* 3H-首页-监测仪2@2x.png */,
+				991A31AD1C12E2DC00E0313F /* 3H-首页_监测仪1@2x.png */,
+				991A31AE1C12E2DC00E0313F /* 3H-首页_监测仪3@2x.png */,
+				991A31AF1C12E2DC00E0313F /* 首页-健康商城-商品详情-立即购买_图片@2x.png */,
+				991A31B01C12E2DC00E0313F /* 首页-健康商城-商品详情-立即购买_填写收货地址@2x.png */,
+				991A31B11C12E2DC00E0313F /* 首页-健康商城-商品详情-立即购买_支付-点击状态@2x.png */,
+				991A31B21C12E2DC00E0313F /* 首页-健康商城-商品详情-立即购买_点击-非点击状态@2x.png */,
+				991A31B31C12E2DC00E0313F /* 首页-健康商城-商品详情-立即购买_确认并支付@2x.png */,
+				991A31B41C12E2DC00E0313F /* 首页-健康商城-商品详情_Banner@2x.png */,
+				991A31B51C12E2DC00E0313F /* 首页-健康商城-商品详情_加入购物车@2x.png */,
+				991A31B61C12E2DC00E0313F /* 首页-健康商城-商品详情_商品介绍@2x.png */,
+				991A31B71C12E2DC00E0313F /* 首页-健康商城-商品详情_头像1@2x.png */,
+				991A31B81C12E2DC00E0313F /* 首页-健康商城-商品详情_头像2@2x.png */,
+				991A31B91C12E2DC00E0313F /* 首页-健康商城-商品详情_收藏@2x.png */,
+				991A31BA1C12E2DC00E0313F /* 首页-健康商城-商品详情_数量+@2x.png */,
+				991A31BB1C12E2DC00E0313F /* 首页-健康商城-商品详情_数量-@2x.png */,
+				991A31BC1C12E2DC00E0313F /* 首页-健康商城-商品详情_立即购买@2x.png */,
+				991A31BD1C12E2DC00E0313F /* 首页-健康商城-商品详情_评论@2x.png */,
+				991A31BE1C12E2DC00E0313F /* 首页-健康商城-商品详情_购物车@2x.png */,
+				991A31BF1C12E2DC00E0313F /* 首页-健康商城_Banner@2x.png */,
+				991A31C01C12E2DC00E0313F /* 首页-健康商城_监测仪1@2x.png */,
+				991A31C11C12E2DC00E0313F /* 首页-健康商城_监测仪2@2x.png */,
+				991A31C21C12E2DC00E0313F /* 首页-健康商城_监测仪3@2x.png */,
+				991A31C31C12E2DC00E0313F /* 首页-健康商城_监测仪4@2x.png */,
+			);
+			path = "健康商城";
+			sourceTree = "<group>";
+		};
+		991A31C41C12E2DC00E0313F /* 健康日程 */ = {
+			isa = PBXGroup;
+			children = (
+				991A31C51C12E2DC00E0313F /* 3H-首页_健康日程 (2)@2x.png */,
+				991A31C61C12E2DC00E0313F /* 3H-首页_健康日程@2x.png */,
+			);
+			path = "健康日程";
+			sourceTree = "<group>";
+		};
+		991A31C71C12E2DC00E0313F /* 健康管理 */ = {
+			isa = PBXGroup;
+			children = (
+				991A31C81C12E2DC00E0313F /* 3H-首页_健康管理 (2)@2x.png */,
+				991A31C91C12E2DC00E0313F /* 3H-首页_健康管理@2x.png */,
+			);
+			path = "健康管理";
+			sourceTree = "<group>";
+		};
+		991A31CA1C12E2DC00E0313F /* 健康资讯 */ = {
+			isa = PBXGroup;
+			children = (
+				991A31CB1C12E2DC00E0313F /* 3H-首页_新药研发@2x.png */,
+				991A31CC1C12E2DC00E0313F /* 3H-首页_浅谈国际@2x.png */,
+				991A31CD1C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论-发表评论_图片@2x.png */,
+				991A31CE1C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论2_发表@2x.png */,
+				991A31CF1C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论2_添加@2x.png */,
+				991A31D01C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论2_表情@2x.png */,
+				991A31D11C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论2_输入框@2x.png */,
+				991A31D21C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论@2x.png */,
+				991A31D31C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论_分享@2x.png */,
+				991A31D41C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论_输入框@2x.png */,
+				991A31D51C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论_铅笔@2x.png */,
+				991A31D61C12E2DC00E0313F /* 首页-健康资讯_Banner@2x.png */,
+				991A31D71C12E2DC00E0313F /* 首页-健康资讯_图1@2x.png */,
+				991A31D81C12E2DC00E0313F /* 首页-健康资讯_图2@2x.png */,
+				991A31D91C12E2DC00E0313F /* 首页-健康资讯_图3@2x.png */,
+				991A31DA1C12E2DC00E0313F /* 首页-健康资讯_图4@2x.png */,
+				991A31DB1C12E2DC00E0313F /* 首页-健康资讯_搜索@2x.png */,
+				991A31DC1C12E2DC00E0313F /* 首页-健康资讯_时间@2x.png */,
+				991A31DD1C12E2DC00E0313F /* 首页-健康资讯_返回@2x.png */,
+				991A31DE1C12E2DC00E0313F /* 首页-新药研发_图片@2x.png */,
+				991A31DF1C12E2DC00E0313F /* 首页-新药研发_更多@2x.png */,
+				991A31E01C12E2DC00E0313F /* 首页-新药研发_点赞@2x.png */,
+				991A31E11C12E2DC00E0313F /* 首页-新药研发_评论@2x.png */,
+			);
+			path = "健康资讯";
+			sourceTree = "<group>";
+		};
+		991A31E21C12E2DC00E0313F /* 底部图标 */ = {
+			isa = PBXGroup;
+			children = (
+				991A31E31C12E2DC00E0313F /* 3H-首页_健康-点击状态 (2)@2x.png */,
+				991A31E41C12E2DC00E0313F /* 3H-首页_健康-点击状态@2x.png */,
+				991A31E51C12E2DC00E0313F /* 3H-首页_健康-非点击状态 (2)@2x.png */,
+				991A31E61C12E2DC00E0313F /* 3H-首页_健康-非点击状态@2x.png */,
+				991A31E71C12E2DC00E0313F /* 3H-首页_我的-点击状态 (2)@2x.png */,
+				991A31E81C12E2DC00E0313F /* 3H-首页_我的-点击状态@2x.png */,
+				991A31E91C12E2DC00E0313F /* 3H-首页_我的-非点击状态 (2)@2x.png */,
+				991A31EA1C12E2DC00E0313F /* 3H-首页_我的-非点击状态@2x.png */,
+				991A31EB1C12E2DC00E0313F /* 3H-首页_消息-点击状态 (2)@2x.png */,
+				991A31EC1C12E2DC00E0313F /* 3H-首页_消息-点击状态@2x.png */,
+				991A31ED1C12E2DC00E0313F /* 3H-首页_消息-非点击状态 (2)@2x.png */,
+				991A31EE1C12E2DC00E0313F /* 3H-首页_消息-非点击状态@2x.png */,
+				991A31EF1C12E2DC00E0313F /* 3H-首页_首页-点击状态 (2)@2x.png */,
+				991A31F01C12E2DC00E0313F /* 3H-首页_首页-点击状态@2x.png */,
+				991A31F11C12E2DC00E0313F /* 3H-首页_首页-非点击状态 (2)@2x.png */,
+				991A31F21C12E2DC00E0313F /* 3H-首页_首页-非点击状态@2x.png */,
+			);
+			path = "底部图标";
+			sourceTree = "<group>";
+		};
+		991A31F31C12E2DC00E0313F /* 我要咨询 */ = {
+			isa = PBXGroup;
+			children = (
+				991A31F41C12E2DC00E0313F /* 3H-首页_我要咨询 (2)@2x.png */,
+				991A31F51C12E2DC00E0313F /* 3H-首页_我要咨询@2x.png */,
+				991A31F61C12E2DC00E0313F /* 首页-我要咨询-医生列表_搜索图标@2x.png */,
+				991A31F71C12E2DC00E0313F /* 首页-我要咨询-在线咨询-2_拍照@2x.png */,
+				991A31F81C12E2DC00E0313F /* 首页-我要咨询-在线咨询-医生列表-搜索_取消@2x.png */,
+				991A31F91C12E2DC00E0313F /* 首页-我要咨询-在线咨询-医生列表-搜索_搜索框@2x.png */,
+				991A31FA1C12E2DC00E0313F /* 首页-我要咨询-在线咨询_3H头像@2x.png */,
+				991A31FB1C12E2DC00E0313F /* 首页-我要咨询-在线咨询_对话框1@2x.png */,
+				991A31FC1C12E2DC00E0313F /* 首页-我要咨询-在线咨询_对话框2@2x.png */,
+				991A31FD1C12E2DC00E0313F /* 首页-我要咨询-在线咨询_更多@2x.png */,
+				991A31FE1C12E2DC00E0313F /* 首页-我要咨询-在线咨询_表情@2x.png */,
+				991A31FF1C12E2DC00E0313F /* 首页-我要咨询-在线咨询_语音@2x.png */,
+				991A32001C12E2DC00E0313F /* 首页-我要咨询-在线咨询_输入框@2x.png */,
+				991A32011C12E2DC00E0313F /* 首页-我要咨询-电话咨询_信息框@2x.png */,
+				991A32021C12E2DC00E0313F /* 首页-我要咨询-电话咨询_外框@2x.png */,
+				991A32031C12E2DC00E0313F /* 首页-我要咨询-电话咨询_描述信息@2x.png */,
+				991A32041C12E2DC00E0313F /* 首页-我要咨询_医生列表图标@2x.png */,
+				991A32051C12E2DC00E0313F /* 首页-我要咨询_在线咨询@2x.png */,
+				991A32061C12E2DC00E0313F /* 首页-我要咨询_电话咨询@2x.png */,
+			);
+			path = "我要咨询";
+			sourceTree = "<group>";
+		};
+		991A32071C12E2DC00E0313F /* 我要预约 */ = {
+			isa = PBXGroup;
+			children = (
+				991A32081C12E2DC00E0313F /* 3H-首页_我要预约 (2)@2x.png */,
+				991A32091C12E2DC00E0313F /* 3H-首页_我要预约@2x.png */,
+				991A320A1C12E2DC00E0313F /* 首页-我要预约-预约住院_留言框@2x.png */,
+				991A320B1C12E2DC00E0313F /* 首页-我要预约-预约住院_预约留言@2x.png */,
+				991A320C1C12E2DC00E0313F /* 首页-我要预约-预约挂号-2_挂号费用3@2x.png */,
+				991A320D1C12E2DC00E0313F /* 首页-我要预约-预约挂号-2_日期-未选中@2x.png */,
+				991A320E1C12E2DC00E0313F /* 首页-我要预约-预约挂号-2_日期-选中@2x.png */,
+				991A320F1C12E2DC00E0313F /* 首页-我要预约-预约挂号-2_时间-点击状态@2x.png */,
+				991A32101C12E2DC00E0313F /* 首页-我要预约-预约挂号-2_预约时间@2x.png */,
+				991A32111C12E2DC00E0313F /* 首页-我要预约-预约挂号2-预约成功_预约成功@2x.png */,
+				991A32121C12E2DC00E0313F /* 首页-我要预约-预约挂号_头像@2x.png */,
+				991A32131C12E2DC00E0313F /* 首页-我要预约-预约挂号_擅长@2x.png */,
+				991A32141C12E2DC00E0313F /* 首页-我要预约-预约挂号_简介@2x.png */,
+				991A32151C12E2DC00E0313F /* 首页-我要预约-预约挂号_背景@2x.png */,
+				991A32161C12E2DC00E0313F /* 首页-我要预约_预约专家电话咨询@2x.png */,
+				991A32171C12E2DC00E0313F /* 首页-我要预约_预约住院@2x.png */,
+				991A32181C12E2DC00E0313F /* 首页-我要预约_预约挂号@2x.png */,
+			);
+			path = "我要预约";
+			sourceTree = "<group>";
+		};
+		991A32E81C12E58D00E0313F /* Appoint */ = {
+			isa = PBXGroup;
+			children = (
+				991A32EF1C12E5E900E0313F /* AppointViewController.h */,
+				991A32F01C12E5E900E0313F /* AppointViewController.m */,
+			);
+			path = Appoint;
+			sourceTree = "<group>";
+		};
+		991A32E91C12E58D00E0313F /* Consulting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Consulting;
+			sourceTree = "<group>";
+		};
+		991A32EA1C12E58D00E0313F /* Manage */ = {
+			isa = PBXGroup;
+			children = (
+				991A32EC1C12E5C100E0313F /* ManageViewController.h */,
+				991A32ED1C12E5C100E0313F /* ManageViewController.m */,
+			);
+			path = Manage;
+			sourceTree = "<group>";
+		};
+		991A32EB1C12E58D00E0313F /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		991A330F1C12FFE400E0313F /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				991A33101C12FFE400E0313F /* PersonalViewController.h */,
+				991A33111C12FFE400E0313F /* PersonalViewController.m */,
+			);
+			path = Personal;
+			sourceTree = "<group>";
+		};
+		991A33121C12FFE400E0313F /* SetUp */ = {
+			isa = PBXGroup;
+			children = (
+				991A33131C12FFE400E0313F /* SetUpViewController.h */,
+				991A33141C12FFE400E0313F /* SetUpViewController.m */,
+			);
+			path = SetUp;
+			sourceTree = "<group>";
+		};
+		9936695A1C132A5A00B3E1C7 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				9936695E1C132A8E00B3E1C7 /* ShopViewController.h */,
+				9936695F1C132A8E00B3E1C7 /* ShopViewController.m */,
+				9936697A1C13331400B3E1C7 /* ShopDetailViewController.h */,
+				9936697B1C13331400B3E1C7 /* ShopDetailViewController.m */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		993669611C132C6800B3E1C7 /* ConsultingDynamic */ = {
+			isa = PBXGroup;
+			children = (
+				993669621C132C6800B3E1C7 /* ConsultingDynamicViewController.h */,
+				993669631C132C6800B3E1C7 /* ConsultingDynamicViewController.m */,
+				993669641C132C6800B3E1C7 /* DynamicDetailViewController.h */,
+				993669651C132C6800B3E1C7 /* DynamicDetailViewController.m */,
+			);
+			path = ConsultingDynamic;
+			sourceTree = "<group>";
+		};
 		99DA3EA51C0BE4CF00573D4C = {
 			isa = PBXGroup;
 			children = (
@@ -499,6 +1425,8 @@
 		99DA408E1C0BEB0500573D4C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				991A32FA1C12ED7100E0313F /* HealthTableViewCell.h */,
+				991A32FB1C12ED7100E0313F /* HealthTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -532,6 +1460,14 @@
 		99DA40941C0BEB0500573D4C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				993669681C132C7600B3E1C7 /* ConsultingDynamicHeadView.h */,
+				993669691C132C7600B3E1C7 /* ConsultingDynamicHeadView.m */,
+				9936696A1C132C7600B3E1C7 /* ConsultingDynamicTableViewCell.h */,
+				9936696B1C132C7600B3E1C7 /* ConsultingDynamicTableViewCell.m */,
+				9936696C1C132C7600B3E1C7 /* DynamicDetailTableViewCell.h */,
+				9936696D1C132C7600B3E1C7 /* DynamicDetailTableViewCell.m */,
+				9936696E1C132C7600B3E1C7 /* DynamicDetailToolView.h */,
+				9936696F1C132C7600B3E1C7 /* DynamicDetailToolView.m */,
 				991A31251C11E94500E0313F /* HomeHeadTableViewCell.h */,
 				991A31261C11E94500E0313F /* HomeHeadTableViewCell.m */,
 				991A31281C11E9B600E0313F /* HomeFunctionTableViewCell.h */,
@@ -540,8 +1476,30 @@
 				991A312C1C11E9C800E0313F /* HomeTitleTableViewCell.m */,
 				991A312E1C11E9EC00E0313F /* HomeTableViewCell.h */,
 				991A312F1C11E9EC00E0313F /* HomeTableViewCell.m */,
-				991A31311C11EA0E00E0313F /* HomeSlidingTableViewCell.h */,
-				991A31321C11EA0E00E0313F /* HomeSlidingTableViewCell.m */,
+				991A31371C12DE8200E0313F /* HomeSlidingTableViewCell.h */,
+				991A31381C12DE8200E0313F /* HomeSlidingTableViewCell.m */,
+				991A31341C12D9B300E0313F /* HomeSlidingCustomView.h */,
+				991A31351C12D9B300E0313F /* HomeSlidingCustomView.m */,
+				991A32F21C12E60400E0313F /* ManageTableViewCell.h */,
+				991A32F31C12E60400E0313F /* ManageTableViewCell.m */,
+				991A32F51C12E61500E0313F /* AppointTableViewCell.h */,
+				991A32F61C12E61500E0313F /* AppointTableViewCell.m */,
+				993669741C132D5F00B3E1C7 /* ShopTableViewCell.h */,
+				993669751C132D5F00B3E1C7 /* ShopTableViewCell.m */,
+				993669771C132DCB00B3E1C7 /* ShopCustomView.h */,
+				993669781C132DCB00B3E1C7 /* ShopCustomView.m */,
+				9936697D1C13335D00B3E1C7 /* ShopDetailNameTableViewCell.h */,
+				9936697E1C13335D00B3E1C7 /* ShopDetailNameTableViewCell.m */,
+				993669801C13336F00B3E1C7 /* ShopDetailNumTableViewCell.h */,
+				993669811C13336F00B3E1C7 /* ShopDetailNumTableViewCell.m */,
+				993669831C13339200B3E1C7 /* ShopDetailDescTableViewCell.h */,
+				993669841C13339200B3E1C7 /* ShopDetailDescTableViewCell.m */,
+				993669861C1333ED00B3E1C7 /* ShopDetailTitleTableViewCell.h */,
+				993669871C1333ED00B3E1C7 /* ShopDetailTitleTableViewCell.m */,
+				993669891C13340D00B3E1C7 /* ShopDetailCommentsTableViewCell.h */,
+				9936698A1C13340D00B3E1C7 /* ShopDetailCommentsTableViewCell.m */,
+				9936698C1C13343F00B3E1C7 /* ShopDetailToolView.h */,
+				9936698D1C13343F00B3E1C7 /* ShopDetailToolView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -549,6 +1507,12 @@
 		99DA40951C0BEB0500573D4C /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				993669611C132C6800B3E1C7 /* ConsultingDynamic */,
+				9936695A1C132A5A00B3E1C7 /* Shop */,
+				991A32E81C12E58D00E0313F /* Appoint */,
+				991A32E91C12E58D00E0313F /* Consulting */,
+				991A32EA1C12E58D00E0313F /* Manage */,
+				991A32EB1C12E58D00E0313F /* Schedule */,
 				99DA40961C0BEB0500573D4C /* HomeViewController.h */,
 				99DA40971C0BEB0500573D4C /* HomeViewController.m */,
 			);
@@ -575,6 +1539,8 @@
 		99DA409A1C0BEB0500573D4C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				991A32FD1C12EFD700E0313F /* MessageTableViewCell.h */,
+				991A32FE1C12EFD700E0313F /* MessageTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -608,6 +1574,16 @@
 		99DA40A01C0BEB0500573D4C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				991A33031C12F5D500E0313F /* MineHeadView.h */,
+				991A33041C12F5D500E0313F /* MineHeadView.m */,
+				991A33001C12F5BF00E0313F /* MineTableViewCell.h */,
+				991A33011C12F5BF00E0313F /* MineTableViewCell.m */,
+				991A33061C12FFDA00E0313F /* PersonalHeadTableViewCell.h */,
+				991A33071C12FFDA00E0313F /* PersonalHeadTableViewCell.m */,
+				991A33081C12FFDA00E0313F /* PersonalTableViewCell.h */,
+				991A33091C12FFDA00E0313F /* PersonalTableViewCell.m */,
+				991A330A1C12FFDA00E0313F /* SetUpTableViewCell.h */,
+				991A330B1C12FFDA00E0313F /* SetUpTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -615,6 +1591,8 @@
 		99DA40A11C0BEB0500573D4C /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				991A330F1C12FFE400E0313F /* Personal */,
+				991A33121C12FFE400E0313F /* SetUp */,
 				99DA40A21C0BEB0500573D4C /* MineViewController.h */,
 				99DA40A31C0BEB0500573D4C /* MineViewController.m */,
 			);
@@ -644,6 +1622,7 @@
 		99DA40B11C0BEB0500573D4C /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				991A313A1C12E2DB00E0313F /* 3H患者端切图 */,
 			);
 			name = Images;
 			path = 3HPatientClient/Images;
@@ -1094,11 +2073,218 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				991A328D1C12E2DC00E0313F /* 首页-健康商城-商品详情_数量+@2x.png in Resources */,
+				991A327C1C12E2DC00E0313F /* 3H-首页_小车@2x.png in Resources */,
+				991A32711C12E2DC00E0313F /* 3H-消息_复查提醒@2x.png in Resources */,
+				991A32A41C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论_输入框@2x.png in Resources */,
+				991A32631C12E2DC00E0313F /* 3H-我的_我的积分-非点击状态@2x.png in Resources */,
+				991A32331C12E2DC00E0313F /* 我的-我的钱包_订单记录-未点击状态@2x.png in Resources */,
+				991A32401C12E2DC00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1-4@2x.png in Resources */,
+				991A32CE1C12E2DC00E0313F /* 首页-我要咨询-在线咨询_输入框@2x.png in Resources */,
 				99DA3EBD1C0BE4CF00573D4C /* Main.storyboard in Resources */,
+				991A32891C12E2DC00E0313F /* 首页-健康商城-商品详情_商品介绍@2x.png in Resources */,
+				991A32421C12E2DC00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1-6@2x.png in Resources */,
+				991A327B1C12E2DC00E0313F /* 3H-首页-心率@2x.png in Resources */,
+				991A32851C12E2DC00E0313F /* 首页-健康商城-商品详情-立即购买_点击-非点击状态@2x.png in Resources */,
+				991A32B01C12E2DC00E0313F /* 首页-新药研发_点赞@2x.png in Resources */,
+				991A325F1C12E2DC00E0313F /* 3H-我的_我的健康档案-非点击状态@2x.png in Resources */,
 				99DA41C41C0BEB0500573D4C /* MBProgressHUD.bundle in Resources */,
+				991A321B1C12E2DC00E0313F /* 首页-健康日程_日期-点击状态@2x.png in Resources */,
+				991A32A71C12E2DC00E0313F /* 首页-健康资讯_图1@2x.png in Resources */,
+				991A32771C12E2DC00E0313F /* 微信@2x.png in Resources */,
+				991A325B1C12E2DC00E0313F /* 3H-注册_验证码@2x.png in Resources */,
+				991A32C51C12E2DC00E0313F /* 首页-我要咨询-在线咨询-2_拍照@2x.png in Resources */,
+				991A32C01C12E2DC00E0313F /* 3H-首页_首页-非点击状态 (2)@2x.png in Resources */,
+				991A32811C12E2DC00E0313F /* 3H-首页_监测仪3@2x.png in Resources */,
 				99DA3EC21C0BE4CF00573D4C /* LaunchScreen.xib in Resources */,
+				991A32191C12E2DC00E0313F /* 3H-健康_健康日程@2x.png in Resources */,
+				991A32A81C12E2DC00E0313F /* 首页-健康资讯_图2@2x.png in Resources */,
+				991A32C91C12E2DC00E0313F /* 首页-我要咨询-在线咨询_对话框1@2x.png in Resources */,
+				991A32311C12E2DC00E0313F /* 我的-我的钱包_充值-未点击状态@2x.png in Resources */,
+				991A32BE1C12E2DC00E0313F /* 3H-首页_首页-点击状态 (2)@2x.png in Resources */,
+				991A32351C12E2DC00E0313F /* 我的-我的钱包_账户余额@2x.png in Resources */,
+				991A32AE1C12E2DC00E0313F /* 首页-新药研发_图片@2x.png in Resources */,
+				991A327D1C12E2DC00E0313F /* 3H-首页_心率0@2x.png in Resources */,
+				991A32D61C12E2DC00E0313F /* 3H-首页_我要预约@2x.png in Resources */,
+				991A32DF1C12E2DC00E0313F /* 首页-我要预约-预约挂号_头像@2x.png in Resources */,
+				991A329D1C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论-发表评论_图片@2x.png in Resources */,
+				991A32E01C12E2DC00E0313F /* 首页-我要预约-预约挂号_擅长@2x.png in Resources */,
+				991A32D21C12E2DC00E0313F /* 首页-我要咨询_医生列表图标@2x.png in Resources */,
+				991A32911C12E2DC00E0313F /* 首页-健康商城-商品详情_购物车@2x.png in Resources */,
+				991A32691C12E2DC00E0313F /* 3H-我的_我的预约-非点击状态@2x.png in Resources */,
+				991A32CD1C12E2DC00E0313F /* 首页-我要咨询-在线咨询_语音@2x.png in Resources */,
+				991A32901C12E2DC00E0313F /* 首页-健康商城-商品详情_评论@2x.png in Resources */,
+				991A324D1C12E2DC00E0313F /* 我的-设置_更多点击状态@2x.png in Resources */,
+				991A32941C12E2DC00E0313F /* 首页-健康商城_监测仪2@2x.png in Resources */,
+				991A32431C12E2DC00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1@2x.png in Resources */,
+				991A32871C12E2DC00E0313F /* 首页-健康商城-商品详情_Banner@2x.png in Resources */,
+				991A326A1C12E2DC00E0313F /* 3H-我的_李小光-男-背景@2x.png in Resources */,
+				991A32AD1C12E2DC00E0313F /* 首页-健康资讯_返回@2x.png in Resources */,
+				991A32751C12E2DC00E0313F /* 3H-消息_预约提醒@2x.png in Resources */,
+				991A326C1C12E2DC00E0313F /* 3H-我的_李小光-背景@2x.png in Resources */,
+				991A32DE1C12E2DC00E0313F /* 首页-我要预约-预约挂号2-预约成功_预约成功@2x.png in Resources */,
+				991A323D1C12E2DC00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1-1@2x.png in Resources */,
+				991A323A1C12E2DC00E0313F /* 我的-我的预约_实付@2x.png in Resources */,
+				991A32831C12E2DC00E0313F /* 首页-健康商城-商品详情-立即购买_填写收货地址@2x.png in Resources */,
+				991A32E41C12E2DC00E0313F /* 首页-我要预约_预约住院@2x.png in Resources */,
+				991A322D1C12E2DC00E0313F /* 我的-我的订单_九康科技LOGO@2x.png in Resources */,
+				991A32601C12E2DC00E0313F /* 3H-我的_我的收藏-点击状态@2x.png in Resources */,
+				991A32511C12E2DC00E0313F /* 我的-设置_版本更新-非点击状态@2x.png in Resources */,
+				991A32861C12E2DC00E0313F /* 首页-健康商城-商品详情-立即购买_确认并支付@2x.png in Resources */,
+				991A32661C12E2DC00E0313F /* 3H-我的_我的钱包-点击状态@2x.png in Resources */,
+				991A32781C12E2DC00E0313F /* 新浪微博@2x.png in Resources */,
+				991A32B51C12E2DC00E0313F /* 3H-首页_健康-非点击状态@2x.png in Resources */,
+				991A32BF1C12E2DC00E0313F /* 3H-首页_首页-点击状态@2x.png in Resources */,
+				991A32271C12E2DC00E0313F /* 3H-健康_预约@2x.png in Resources */,
+				991A32B41C12E2DC00E0313F /* 3H-首页_健康-非点击状态 (2)@2x.png in Resources */,
+				991A32B21C12E2DC00E0313F /* 3H-首页_健康-点击状态 (2)@2x.png in Resources */,
+				991A32B11C12E2DC00E0313F /* 首页-新药研发_评论@2x.png in Resources */,
+				991A324A1C12E2DC00E0313F /* 我的-设置_意见反馈-非点击状态@2x.png in Resources */,
+				991A323F1C12E2DC00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1-3@2x.png in Resources */,
+				991A322B1C12E2DC00E0313F /* 我的-我的收藏_收藏-未点击状态@2x.png in Resources */,
+				991A322E1C12E2DC00E0313F /* 我的-我的订单_删除订单@2x.png in Resources */,
+				991A32371C12E2DC00E0313F /* 我的-我的预约_下@2x.png in Resources */,
+				991A32DA1C12E2DC00E0313F /* 首页-我要预约-预约挂号-2_日期-未选中@2x.png in Resources */,
+				991A32CC1C12E2DC00E0313F /* 首页-我要咨询-在线咨询_表情@2x.png in Resources */,
+				991A32AC1C12E2DC00E0313F /* 首页-健康资讯_时间@2x.png in Resources */,
+				991A326B1C12E2DC00E0313F /* 3H-我的_李小光-男@2x.png in Resources */,
+				991A32D71C12E2DC00E0313F /* 首页-我要预约-预约住院_留言框@2x.png in Resources */,
+				991A324F1C12E2DC00E0313F /* 我的-设置_清除缓存非点击状态@2x.png in Resources */,
+				991A32A51C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论_铅笔@2x.png in Resources */,
+				991A326F1C12E2DC00E0313F /* 3H-我的_设置-非点击状态@2x.png in Resources */,
+				991A32531C12E2DC00E0313F /* 我的-设置_评价软件-非点击状态@2x.png in Resources */,
+				991A32281C12E2DC00E0313F /* 我的-个人资料_病人头像@2x.png in Resources */,
+				991A32211C12E2DC00E0313F /* 首页-健康管理_主要诊断@2x.png in Resources */,
+				991A328F1C12E2DC00E0313F /* 首页-健康商城-商品详情_立即购买@2x.png in Resources */,
+				991A321E1C12E2DC00E0313F /* 3H-健康_健康管理@2x.png in Resources */,
+				991A32391C12E2DC00E0313F /* 我的-我的预约_医生头像2@2x.png in Resources */,
+				991A324C1C12E2DC00E0313F /* 我的-设置_更多-非点击状态@2x.png in Resources */,
+				991A32CF1C12E2DC00E0313F /* 首页-我要咨询-电话咨询_信息框@2x.png in Resources */,
+				991A32791C12E2DC00E0313F /* 3H-首页-天气@2x.png in Resources */,
+				991A32BC1C12E2DC00E0313F /* 3H-首页_消息-非点击状态 (2)@2x.png in Resources */,
+				991A32471C12E2DC00E0313F /* 我的-设置_关于-点击状态@2x.png in Resources */,
+				991A329F1C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论2_添加@2x.png in Resources */,
+				991A329A1C12E2DC00E0313F /* 3H-首页_健康管理@2x.png in Resources */,
+				991A32301C12E2DC00E0313F /* 我的-我的订单_评价订单@2x.png in Resources */,
+				991A324B1C12E2DC00E0313F /* 我的-设置_更多-非点击状态 (2)@2x.png in Resources */,
+				991A32681C12E2DC00E0313F /* 3H-我的_我的预约-点击状态@2x.png in Resources */,
+				991A32E71C12E39400E0313F /* arrowImg@2x.png in Resources */,
 				99DA41D41C0BEB0500573D4C /* MJRefresh.bundle in Resources */,
+				991A325E1C12E2DC00E0313F /* 3H-我的_我的健康档案-点击状态@2x.png in Resources */,
+				991A32701C12E2DC00E0313F /* 3H-消息-预约提醒-全选_删除@2x.png in Resources */,
+				991A32441C12E2DC00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像2@2x.png in Resources */,
+				991A329E1C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论2_发表@2x.png in Resources */,
+				991A32921C12E2DC00E0313F /* 首页-健康商城_Banner@2x.png in Resources */,
+				991A32461C12E2DC00E0313F /* 我的-设置-评价软件_输入信息@2x.png in Resources */,
+				991A32D11C12E2DC00E0313F /* 首页-我要咨询-电话咨询_描述信息@2x.png in Resources */,
+				991A32A11C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论2_输入框@2x.png in Resources */,
+				991A32CA1C12E2DC00E0313F /* 首页-我要咨询-在线咨询_对话框2@2x.png in Resources */,
+				991A32C71C12E2DC00E0313F /* 首页-我要咨询-在线咨询-医生列表-搜索_搜索框@2x.png in Resources */,
+				991A32801C12E2DC00E0313F /* 3H-首页_监测仪1@2x.png in Resources */,
+				991A328E1C12E2DC00E0313F /* 首页-健康商城-商品详情_数量-@2x.png in Resources */,
+				991A321D1C12E2DC00E0313F /* 首页-健康日程_用药提醒@2x.png in Resources */,
+				991A32541C12E2DC00E0313F /* 3H-注册_3H (2)@2x.png in Resources */,
+				991A32B31C12E2DC00E0313F /* 3H-首页_健康-点击状态@2x.png in Resources */,
+				991A32BD1C12E2DC00E0313F /* 3H-首页_消息-非点击状态@2x.png in Resources */,
+				991A32C41C12E2DC00E0313F /* 首页-我要咨询-医生列表_搜索图标@2x.png in Resources */,
+				991A32BA1C12E2DC00E0313F /* 3H-首页_消息-点击状态 (2)@2x.png in Resources */,
+				991A321F1C12E2DC00E0313F /* 首页-健康管理-主要诊断-主要诊断搜索_搜索@2x.png in Resources */,
+				991A32591C12E2DC00E0313F /* 3H-注册_请输入手机号@2x.png in Resources */,
+				991A328A1C12E2DC00E0313F /* 首页-健康商城-商品详情_头像1@2x.png in Resources */,
+				991A329B1C12E2DC00E0313F /* 3H-首页_新药研发@2x.png in Resources */,
+				991A32321C12E2DC00E0313F /* 我的-我的钱包_充值-点击状态@2x.png in Resources */,
+				991A32761C12E2DC00E0313F /* QQ@2x.png in Resources */,
+				991A32C81C12E2DC00E0313F /* 首页-我要咨询-在线咨询_3H头像@2x.png in Resources */,
+				991A32C21C12E2DC00E0313F /* 3H-首页_我要咨询 (2)@2x.png in Resources */,
+				991A32E11C12E2DC00E0313F /* 首页-我要预约-预约挂号_简介@2x.png in Resources */,
+				991A32A31C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论_分享@2x.png in Resources */,
+				991A325A1C12E2DC00E0313F /* 3H-注册_选框@2x.png in Resources */,
+				991A32241C12E2DC00E0313F /* 首页-健康管理_用药指南@2x.png in Resources */,
+				991A32DB1C12E2DC00E0313F /* 首页-我要预约-预约挂号-2_日期-选中@2x.png in Resources */,
+				991A32971C12E2DC00E0313F /* 3H-首页_健康日程 (2)@2x.png in Resources */,
+				991A326E1C12E2DC00E0313F /* 3H-我的_设置-点击状态@2x.png in Resources */,
+				991A32AF1C12E2DC00E0313F /* 首页-新药研发_更多@2x.png in Resources */,
+				991A32C61C12E2DC00E0313F /* 首页-我要咨询-在线咨询-医生列表-搜索_取消@2x.png in Resources */,
+				991A327A1C12E2DC00E0313F /* 3H-首页-心率-2@2x.png in Resources */,
+				991A32571C12E2DC00E0313F /* 3H-注册_勾@2x.png in Resources */,
+				991A32DC1C12E2DC00E0313F /* 首页-我要预约-预约挂号-2_时间-点击状态@2x.png in Resources */,
+				991A32621C12E2DC00E0313F /* 3H-我的_我的积分-点击状态@2x.png in Resources */,
+				991A32D91C12E2DC00E0313F /* 首页-我要预约-预约挂号-2_挂号费用3@2x.png in Resources */,
+				991A32BB1C12E2DC00E0313F /* 3H-首页_消息-点击状态@2x.png in Resources */,
+				991A32991C12E2DC00E0313F /* 3H-首页_健康管理 (2)@2x.png in Resources */,
+				991A32AA1C12E2DC00E0313F /* 首页-健康资讯_图4@2x.png in Resources */,
+				991A322F1C12E2DC00E0313F /* 我的-我的订单_图片@2x.png in Resources */,
+				991A32561C12E2DC00E0313F /* 3H-注册_全选@2x.png in Resources */,
+				991A322C1C12E2DC00E0313F /* 我的-我的收藏_收藏-点击状态@2x.png in Resources */,
+				991A32671C12E2DC00E0313F /* 3H-我的_我的钱包-非点击状态@2x.png in Resources */,
+				991A32381C12E2DC00E0313F /* 我的-我的预约_医生头像1@2x.png in Resources */,
+				991A32DD1C12E2DC00E0313F /* 首页-我要预约-预约挂号-2_预约时间@2x.png in Resources */,
+				991A32951C12E2DC00E0313F /* 首页-健康商城_监测仪3@2x.png in Resources */,
+				991A325D1C12E2DC00E0313F /* 3H-我的_女@2x.png in Resources */,
+				991A32981C12E2DC00E0313F /* 3H-首页_健康日程@2x.png in Resources */,
+				991A32581C12E2DC00E0313F /* 3H-注册_立即注册@2x.png in Resources */,
+				991A32C31C12E2DC00E0313F /* 3H-首页_我要咨询@2x.png in Resources */,
+				991A32AB1C12E2DC00E0313F /* 首页-健康资讯_搜索@2x.png in Resources */,
+				991A32E31C12E2DC00E0313F /* 首页-我要预约_预约专家电话咨询@2x.png in Resources */,
+				991A32A61C12E2DC00E0313F /* 首页-健康资讯_Banner@2x.png in Resources */,
+				991A324E1C12E2DC00E0313F /* 我的-设置_清除缓存-点击状态@2x.png in Resources */,
+				991A32D81C12E2DC00E0313F /* 首页-我要预约-预约住院_预约留言@2x.png in Resources */,
+				991A32341C12E2DC00E0313F /* 我的-我的钱包_订单记录-点击状态@2x.png in Resources */,
+				991A32221C12E2DC00E0313F /* 首页-健康管理_复查指南@2x.png in Resources */,
+				991A32741C12E2DC00E0313F /* 3H-消息_订单提醒@2x.png in Resources */,
+				991A32D01C12E2DC00E0313F /* 首页-我要咨询-电话咨询_外框@2x.png in Resources */,
+				991A328B1C12E2DC00E0313F /* 首页-健康商城-商品详情_头像2@2x.png in Resources */,
+				991A32491C12E2DC00E0313F /* 我的-设置_意见反馈-点击状态@2x.png in Resources */,
+				991A32501C12E2DC00E0313F /* 我的-设置_版本更新-点击状态@2x.png in Resources */,
+				991A32D31C12E2DC00E0313F /* 首页-我要咨询_在线咨询@2x.png in Resources */,
+				991A32B61C12E2DC00E0313F /* 3H-首页_我的-点击状态 (2)@2x.png in Resources */,
+				991A328C1C12E2DC00E0313F /* 首页-健康商城-商品详情_收藏@2x.png in Resources */,
+				991A323C1C12E2DC00E0313F /* 我的-我的预约_未评价背景@2x.png in Resources */,
+				991A32451C12E2DC00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像3@2x.png in Resources */,
+				991A32F91C12E7E400E0313F /* backbtnimg@2x.png in Resources */,
+				991A32201C12E2DC00E0313F /* 首页-健康管理-主要诊断-主要诊断搜索_搜索框@2x.png in Resources */,
+				991A32CB1C12E2DC00E0313F /* 首页-我要咨询-在线咨询_更多@2x.png in Resources */,
+				991A32E21C12E2DC00E0313F /* 首页-我要预约-预约挂号_背景@2x.png in Resources */,
+				991A323E1C12E2DC00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1-2@2x.png in Resources */,
+				991A325C1C12E2DC00E0313F /* 3H-我的_保密@2x.png in Resources */,
+				991A327E1C12E2DC00E0313F /* 3H-首页-健康资讯_29@2x.png in Resources */,
+				991A32521C12E2DC00E0313F /* 我的-设置_评价软件-点击状态@2x.png in Resources */,
+				991A32E51C12E2DC00E0313F /* 首页-我要预约_预约挂号@2x.png in Resources */,
+				991A32261C12E2DC00E0313F /* 3H-健康_咨询专家@2x.png in Resources */,
+				991A32291C12E2DC00E0313F /* 我的-我的收藏_图片@2x.png in Resources */,
 				99DA3EBF1C0BE4CF00573D4C /* Images.xcassets in Resources */,
+				991A321C1C12E2DC00E0313F /* 首页-健康日程_检查提醒@2x.png in Resources */,
+				991A322A1C12E2DC00E0313F /* 我的-我的收藏_心@2x.png in Resources */,
+				991A326D1C12E2DC00E0313F /* 3H-我的_李小光头像@2x.png in Resources */,
+				991A32D41C12E2DC00E0313F /* 首页-我要咨询_电话咨询@2x.png in Resources */,
+				991A32A91C12E2DC00E0313F /* 首页-健康资讯_图3@2x.png in Resources */,
+				991A32931C12E2DC00E0313F /* 首页-健康商城_监测仪1@2x.png in Resources */,
+				991A32641C12E2DC00E0313F /* 3H-我的_我的订单-点击状态@2x.png in Resources */,
+				991A32551C12E2DC00E0313F /* 3H-注册_3H@2x.png in Resources */,
+				991A32411C12E2DC00E0313F /* 我的-我要预约-预约挂号-预约挂号_头像1-5@2x.png in Resources */,
+				991A32D51C12E2DC00E0313F /* 3H-首页_我要预约 (2)@2x.png in Resources */,
+				991A32B91C12E2DC00E0313F /* 3H-首页_我的-非点击状态@2x.png in Resources */,
+				991A321A1C12E2DC00E0313F /* 首页-健康日程_复查提醒@2x.png in Resources */,
+				991A323B1C12E2DC00E0313F /* 我的-我的预约_未评价@2x.png in Resources */,
+				991A32881C12E2DC00E0313F /* 首页-健康商城-商品详情_加入购物车@2x.png in Resources */,
+				991A32B71C12E2DC00E0313F /* 3H-首页_我的-点击状态@2x.png in Resources */,
+				991A32721C12E2DC00E0313F /* 3H-消息_用药提醒@2x.png in Resources */,
+				991A329C1C12E2DC00E0313F /* 3H-首页_浅谈国际@2x.png in Resources */,
+				991A32A01C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论2_表情@2x.png in Resources */,
+				991A32841C12E2DC00E0313F /* 首页-健康商城-商品详情-立即购买_支付-点击状态@2x.png in Resources */,
+				991A32651C12E2DC00E0313F /* 3H-我的_我的订单-非点击状态@2x.png in Resources */,
+				991A32481C12E2DC00E0313F /* 我的-设置_关于-非点击状态@2x.png in Resources */,
+				991A32C11C12E2DC00E0313F /* 3H-首页_首页-非点击状态@2x.png in Resources */,
+				991A32611C12E2DC00E0313F /* 3H-我的_我的收藏-非点击状态@2x.png in Resources */,
+				991A32821C12E2DC00E0313F /* 首页-健康商城-商品详情-立即购买_图片@2x.png in Resources */,
+				991A32361C12E2DC00E0313F /* 我的-我的预约_上@2x.png in Resources */,
+				991A32731C12E2DC00E0313F /* 3H-消息_系统消息@2x.png in Resources */,
+				991A32251C12E2DC00E0313F /* 首页-健康管理_简要病史@2x.png in Resources */,
+				991A32B81C12E2DC00E0313F /* 3H-首页_我的-非点击状态 (2)@2x.png in Resources */,
+				991A327F1C12E2DC00E0313F /* 3H-首页-监测仪2@2x.png in Resources */,
+				991A32961C12E2DC00E0313F /* 首页-健康商城_监测仪4@2x.png in Resources */,
+				991A32231C12E2DC00E0313F /* 首页-健康管理_检查及检查数据@2x.png in Resources */,
+				991A32A21C12E2DC00E0313F /* 首页-健康资讯-新闻资讯-评论@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1123,9 +2309,13 @@
 				99DA41CB1C0BEB0500573D4C /* MJRefreshAutoGifFooter.m in Sources */,
 				99DA41E31C0BEB0500573D4C /* SDWebImageManager.m in Sources */,
 				99DA41C91C0BEB0500573D4C /* MJRefreshFooter.m in Sources */,
+				993669731C132C7600B3E1C7 /* DynamicDetailToolView.m in Sources */,
 				99DA41B31C0BEB0500573D4C /* FMResultSet.m in Sources */,
+				993669601C132A8E00B3E1C7 /* ShopViewController.m in Sources */,
 				99DA41EC1C0BEB0500573D4C /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				991A32FF1C12EFD700E0313F /* MessageTableViewCell.m in Sources */,
 				99DA41C71C0BEB0500573D4C /* MJRefreshBackFooter.m in Sources */,
+				993669711C132C7600B3E1C7 /* ConsultingDynamicTableViewCell.m in Sources */,
 				99DA41BA1C0BEB0500573D4C /* MTLModel+NSCoding.m in Sources */,
 				991A31301C11E9EC00E0313F /* HomeTableViewCell.m in Sources */,
 				99DA41921C0BEB0500573D4C /* BaseTabBarController.m in Sources */,
@@ -1135,17 +2325,22 @@
 				99DA41971C0BEB0500573D4C /* AFHTTPRequestOperationManager.m in Sources */,
 				99DA41D01C0BEB0500573D4C /* MJRefreshBackStateFooter.m in Sources */,
 				99DA41C51C0BEB0500573D4C /* MBProgressHUD.m in Sources */,
+				9936698B1C13340D00B3E1C7 /* ShopDetailCommentsTableViewCell.m in Sources */,
+				991A33051C12F5D500E0313F /* MineHeadView.m in Sources */,
 				99DA41BE1C0BEB0500573D4C /* NSArray+MTLManipulationAdditions.m in Sources */,
 				99DA41A41C0BEB0500573D4C /* NSString+Size.m in Sources */,
 				99DA41AD1C0BEB0500573D4C /* UIView+Tag.m in Sources */,
+				993669761C132D5F00B3E1C7 /* ShopTableViewCell.m in Sources */,
 				99DA41AA1C0BEB0500573D4C /* UIDevice+Extension.m in Sources */,
 				99DA41CF1C0BEB0500573D4C /* MJRefreshBackNormalFooter.m in Sources */,
 				99DA41A11C0BEB0500573D4C /* NSDictionary+SafeAccess.m in Sources */,
 				99DA41DD1C0BEB0500573D4C /* NSData+ImageContentType.m in Sources */,
 				99DA41CE1C0BEB0500573D4C /* MJRefreshBackGifFooter.m in Sources */,
+				991A32FC1C12ED7100E0313F /* HealthTableViewCell.m in Sources */,
 				99DA418F1C0BEB0500573D4C /* MineViewController.m in Sources */,
 				99DA41B71C0BEB0500573D4C /* EXTScope.m in Sources */,
 				99DA419B1C0BEB0500573D4C /* AFURLConnectionOperation.m in Sources */,
+				991A330D1C12FFDA00E0313F /* PersonalTableViewCell.m in Sources */,
 				99DA41BC1C0BEB0500573D4C /* MTLReflection.m in Sources */,
 				99DA41A31C0BEB0500573D4C /* NSString+Extension.m in Sources */,
 				99DA41B41C0BEB0500573D4C /* GetImageColor.m in Sources */,
@@ -1153,16 +2348,22 @@
 				99DA41EF1C0BEB0500573D4C /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				99DA41F31C0BEB0500573D4C /* TQRichTextURLRun.m in Sources */,
 				99DA41901C0BEB0500573D4C /* BaseModel.m in Sources */,
+				993669671C132C6800B3E1C7 /* DynamicDetailViewController.m in Sources */,
 				99DA41E01C0BEB0500573D4C /* SDWebImageDecoder.m in Sources */,
+				993669881C1333ED00B3E1C7 /* ShopDetailTitleTableViewCell.m in Sources */,
 				99DA419C1C0BEB0500573D4C /* AFURLRequestSerialization.m in Sources */,
 				99DA41E81C0BEB0500573D4C /* UIImage+WebP.m in Sources */,
 				99DA3EBA1C0BE4CF00573D4C /* ViewController.m in Sources */,
 				99DA41AF1C0BEB0500573D4C /* FMDatabase.m in Sources */,
 				99DA41F21C0BEB0500573D4C /* TQRichTextImageRun.m in Sources */,
+				991A330E1C12FFDA00E0313F /* SetUpTableViewCell.m in Sources */,
 				99DA41E51C0BEB0500573D4C /* UIButton+WebCache.m in Sources */,
+				993669661C132C6800B3E1C7 /* ConsultingDynamicViewController.m in Sources */,
 				99DA41B81C0BEB0500573D4C /* MTLJSONAdapter.m in Sources */,
 				99DA41F11C0BEB0500573D4C /* TQRichTextEmojiRun.m in Sources */,
+				991A32F71C12E61500E0313F /* AppointTableViewCell.m in Sources */,
 				99DA41981C0BEB0500573D4C /* AFHTTPSessionManager.m in Sources */,
+				991A33151C12FFE400E0313F /* PersonalViewController.m in Sources */,
 				991A312A1C11E9B600E0313F /* HomeFunctionTableViewCell.m in Sources */,
 				99DA41E61C0BEB0500573D4C /* UIImage+GIF.m in Sources */,
 				99DA41B21C0BEB0500573D4C /* FMDatabaseQueue.m in Sources */,
@@ -1176,25 +2377,34 @@
 				99DA3EB71C0BE4CF00573D4C /* AppDelegate.m in Sources */,
 				99DA41B61C0BEB0500573D4C /* EXTRuntimeExtensions.m in Sources */,
 				99DA41BB1C0BEB0500573D4C /* MTLModel.m in Sources */,
+				991A32F11C12E5E900E0313F /* AppointViewController.m in Sources */,
 				99DA41A81C0BEB0500573D4C /* UIButton+Extension.m in Sources */,
 				99DA419A1C0BEB0500573D4C /* AFSecurityPolicy.m in Sources */,
 				99DA41D91C0BEB0500573D4C /* NRDatabase.m in Sources */,
+				991A32F41C12E60400E0313F /* ManageTableViewCell.m in Sources */,
+				991A31391C12DE8200E0313F /* HomeSlidingTableViewCell.m in Sources */,
 				99DA41DB1C0BEB0500573D4C /* NSString+MD5.m in Sources */,
 				99DA41F01C0BEB0500573D4C /* TQRichTextBaseRun.m in Sources */,
 				99DA41AB1C0BEB0500573D4C /* UIScreen+Extension.m in Sources */,
 				99DA41EB1C0BEB0500573D4C /* UIView+WebCacheOperation.m in Sources */,
 				99DA41E71C0BEB0500573D4C /* UIImage+MultiFormat.m in Sources */,
+				9936697F1C13335D00B3E1C7 /* ShopDetailNameTableViewCell.m in Sources */,
 				99DA41911C0BEB0500573D4C /* BaseNavigationController.m in Sources */,
 				99DA41ED1C0BEB0500573D4C /* TPKeyboardAvoidingScrollView.m in Sources */,
 				99DA41E91C0BEB0500573D4C /* UIImageView+HighlightedWebCache.m in Sources */,
 				99DA41DC1C0BEB0500573D4C /* MKAnnotationView+WebCache.m in Sources */,
+				9936698E1C13343F00B3E1C7 /* ShopDetailToolView.m in Sources */,
+				993669791C132DCB00B3E1C7 /* ShopCustomView.m in Sources */,
+				993669851C13339200B3E1C7 /* ShopDetailDescTableViewCell.m in Sources */,
 				99DA41991C0BEB0500573D4C /* AFNetworkReachabilityManager.m in Sources */,
 				99DA41BF1C0BEB0500573D4C /* NSDictionary+MTLManipulationAdditions.m in Sources */,
 				99DA41DE1C0BEB0500573D4C /* SDImageCache.m in Sources */,
-				991A31331C11EA0E00E0313F /* HomeSlidingTableViewCell.m in Sources */,
 				99DA41B51C0BEB0500573D4C /* JSONKit.m in Sources */,
+				991A33021C12F5BF00E0313F /* MineTableViewCell.m in Sources */,
+				991A31361C12D9B300E0313F /* HomeSlidingCustomView.m in Sources */,
 				99DA41A71C0BEB0500573D4C /* UIButton+EXT.m in Sources */,
 				99DA41C31C0BEB0500573D4C /* NSValueTransformer+MTLPredefinedTransformerAdditions.m in Sources */,
+				993669721C132C7600B3E1C7 /* DynamicDetailTableViewCell.m in Sources */,
 				99DA41C61C0BEB0500573D4C /* MJRefreshAutoFooter.m in Sources */,
 				99DA419E1C0BEB0500573D4C /* AFURLSessionManager.m in Sources */,
 				99DA41A91C0BEB0500573D4C /* UIColor+ColorExtension.m in Sources */,
@@ -1211,22 +2421,28 @@
 				99DA41951C0BEB0500573D4C /* BaseViewController.m in Sources */,
 				99DA41A51C0BEB0500573D4C /* NSURLRequest+Extension.m in Sources */,
 				99DA41D11C0BEB0500573D4C /* MJRefreshGifHeader.m in Sources */,
+				991A330C1C12FFDA00E0313F /* PersonalHeadTableViewCell.m in Sources */,
 				99DA418D1C0BEB0500573D4C /* HomeViewController.m in Sources */,
 				99DA41A01C0BEB0500573D4C /* NSDate+Extension.m in Sources */,
+				993669701C132C7600B3E1C7 /* ConsultingDynamicHeadView.m in Sources */,
 				99DA41C21C0BEB0500573D4C /* NSValueTransformer+MTLInversionAdditions.m in Sources */,
 				99DA41D71C0BEB0500573D4C /* UIScrollView+MJRefresh.m in Sources */,
 				99DA41C01C0BEB0500573D4C /* NSError+MTLModelException.m in Sources */,
+				9936697C1C13331400B3E1C7 /* ShopDetailViewController.m in Sources */,
 				99DA41941C0BEB0500573D4C /* BaseTableViewController.m in Sources */,
 				99DA41F41C0BEB0500573D4C /* TQRichTextView.m in Sources */,
 				99DA41E41C0BEB0500573D4C /* SDWebImagePrefetcher.m in Sources */,
 				99DA41E11C0BEB0500573D4C /* SDWebImageDownloader.m in Sources */,
+				993669821C13336F00B3E1C7 /* ShopDetailNumTableViewCell.m in Sources */,
 				99DA419D1C0BEB0500573D4C /* AFURLResponseSerialization.m in Sources */,
 				99DA41CA1C0BEB0500573D4C /* MJRefreshHeader.m in Sources */,
 				99DA41A61C0BEB0500573D4C /* SGSaveFile.m in Sources */,
 				99DA41AE1C0BEB0500573D4C /* UIViewController+Extension.m in Sources */,
 				991A31271C11E94500E0313F /* HomeHeadTableViewCell.m in Sources */,
 				99DA3EB41C0BE4CF00573D4C /* main.m in Sources */,
+				991A32EE1C12E5C100E0313F /* ManageViewController.m in Sources */,
 				99DA41B01C0BEB0500573D4C /* FMDatabaseAdditions.m in Sources */,
+				991A33161C12FFE400E0313F /* SetUpViewController.m in Sources */,
 				99DA41D51C0BEB0500573D4C /* MJRefreshConst.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

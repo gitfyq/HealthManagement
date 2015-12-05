@@ -39,7 +39,7 @@
     
     [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName: [UIColor whiteColor],NSFontAttributeName : [UIFont systemFontOfSize:17]}];
     
-    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithHEX:0x20c6c6]];
+    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithHEX:0x333333]];
     
     
     [[UITabBar appearance] setSelectedImageTintColor:[UIColor colorWithHEX:0x20c6c6]];
